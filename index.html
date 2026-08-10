@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Die of French</title>
+  <link rel="stylesheet" href="Css/DoDHome.css" />
+
+</head>
+
+<body>
+  <audio id="main-theme" src="Music/MainMenuTheme.ogg" autoplay loop></audio>
+
+  <div class="music-mute">
+    <button id="harken">
+      <img src="MusicMute/HarkenAudioSettingIconStill1.png" id="harken-icon">
+    </button>
+  </div>
+
+  <div class="logo">
+    <img src="Iconography/DoDCompactLogo.png" type="image">
+  </div>
+
+  <div class="TextBox">
+    <div class="Text">
+      <p>Hello, Gash here<br>
+        This is where I will be hosting<br> 
+        my French translation <br> for hit game Die Of Death</p>
+      <p>Feel free to look around, there will<br>
+            be switches between French and English to<br>
+            compare strings with more ease</p>
+
+      <p>Currently to do:<br>
+            Killers (in general)<br>
+            Skins (Descriptions, chase themes)<br>
+            Lore Book Killers<br>
+            Lore Book Civilian<br>
+            Lore Book Maps<br>
+            Achievement (Working on right now)<br>
+
+      </p>      
+    </div>
+  </div>
+
+  <div class="ButtonSetter">
+    <div class="Redirect">
+      <div class="Library">
+        <button style="border: none; cursor:pointer;" class="LibraryDOD"
+          onclick="location.href='Subpages/DieOfDeathLibrary.html'">
+          <img src="Buttons/LibraryDOD.png">
+        </button>
+      </div>
+
+      <div clas="Shop">
+        <button style="border: none; cursor:pointer;" class="LibraryDOD"
+          onclick="location.href='DieOfDeathLibrary.html'">
+          <img src="Buttons/ShopDOD.png">
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script>
+    const music = document.getElementById("main-theme");
+    const button = document.getElementById("harken");
+    const icon = document.getElementById("harken-icon");
+
+    const harkenPause = "MusicMute/HarkenAudioSettingIconStill1.png";
+    const harkenPlay = "MusicMute/HarkenAudioSettingIconStill4.png";
+
+    const framesPause = [
+      "MusicMute/HarkenAudioSettingIconStill4.png",
+      "MusicMute/HarkenAudioSettingIconStill3.png",
+      "MusicMute/HarkenAudioSettingIconStill2.png",
+      "MusicMute/HarkenAudioSettingIconStill1.png"
+    ];
+
+    const framesPlay = [
+      "MusicMute/HarkenAudioSettingIconStill1.png",
+      "MusicMute/HarkenAudioSettingIconStill2.png",
+      "MusicMute/HarkenAudioSettingIconStill3.png",
+      "MusicMute/HarkenAudioSettingIconStill4.png"
+    ];
+
+    var noise = new Audio('Music/Shopselect.ogg');
+    noise.volume = 0.07;
+    noise.playbackRate = 2;
+
+    const frameTime = 85; //reminder it"s per ms
+
+    let animPlaying = false;
+
+    function playAnim(frames, callback) {
+      animPlaying = true;
+      let i = 0;
+
+      function showNextFrame() {
+        icon.src = frames[i];
+        i++;
+        if (i < frames.length) {
+          setTimeout(showNextFrame, frameTime);
+        } else {
+          animPlaying = false;
+          if (callback) callback();
+        }
+      }
+      showNextFrame();
+    }
+
+    function togglemusic() {
+      if (animPlaying) return;
+
+      if (music.paused) {
+        music.play();
+        playAnim(framesPlay);
+        noise.play();
+      } else {
+        music.pause();
+        playAnim(framesPause);
+        noise.play();
+      }
+    }
+
+    button.addEventListener("click", togglemusic);
+
+  </script>
+
+</body>
+
+</html>
