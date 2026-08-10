@@ -1,0 +1,388 @@
+{
+    "achievements": [
+        {
+            "id": "hungry",
+            "title": "J'ai Très Faim!",
+            "description": "Soignez 80PdV avec Hotdog.",
+            "quote": "\"Ta Gloutonnerie Me Rend malade.\""
+        },
+        {
+            "id": "golf",
+            "title": "Golf Violent",
+            "description": "Soyez le premier à activer Golf Time dans Golf.",
+            "quote": "\"Si vous faites trop mal à la balle de golf, vous allez au Banlands!\""
+        },
+        {
+            "id": "laundry",
+            "title": "Liste De Course",
+            "description": "Complétez une tâche en tant que Civil.",
+            "quote": "\"Je vais être ici pour un bon moment...\""
+        },
+        {
+            "id": "fan",
+            "title": "Je Suis Ton Plus Grand \"Fan\"",
+            "description": "Faites un gros calin à l'Aération du lobby.",
+            "quote": "\"Non, je suis un Grand Ventilo.\""
+        },
+        {
+            "id": "saver",
+            "title": "Sauveteur",
+            "description": "Soignez quelq'un en dessous de 15 PdV en tant qu'Infirmier.",
+            "quote": "\"MERCI DE M'AVOIR SAUVÉ!! J'AVAIS TELLEMENT SOIF!!\""
+        },
+        {
+            "id": "scholar",
+            "title": "Étudiant Studieux",
+            "description": "Passez plus de 10 minutes dans la Librarie.",
+            "quote": "\"L'Histoire ne peux pas être SI bonne que ça, si?\""
+        },
+        {
+            "id": "synergy",
+            "title": "Le Meilleur Des Deux Mondes",
+            "description": "Choisissez un deck Synergétique.",
+            "quote": "\"Enfin, de la VRAIE puissance\""
+        },
+        {
+            "id": "karma",
+            "title": "Le Karma Appelle",
+            "description": "Dancez devant le tueur et faites vous tuer par celui ci dans les 5 secondes qui suivent.",
+            "quote": "\"Tu l'as vu venir\""
+        },
+        {
+            "id": "shift",
+            "title": "Never-Ending Shift",
+            "description": "Complete a night on the FNAF minigame! (Can't have any zeros)",
+            "quote": "\"...\""
+        },
+        {
+            "id": "sight",
+            "title": "Vue à Couper",
+            "description": "Gagnez en tant que tueurs sur chaque map normale.",
+            "quote": "Tellement de vues, et si peu de temps!"
+        },
+        {
+            "id": "minutes",
+            "title": "Minutes Mesurées",
+            "description": "Atteignez 10 heures de temps de jeu.",
+            "quote": "\"Temps perdu(?)\""
+        },
+        {
+            "id": "bounce",
+            "title": "J'Suis Différent",
+            "description": "Gagnez un roud de One Bounce en tant que Civil.",
+            "quote": "\"J'aime mes chances!\""
+        },
+        {
+            "id": "death",
+            "title": "Here Lies: You",
+            "description": "Mourez une fois.",
+            "quote": "\"Vous nous manquerez.\""
+        },
+        {
+            "id": "showtime",
+            "title": "Voler La Vedette",
+            "description": "Gagnez le Dernier Survivant 'Spectacle'. (de n'importe quel équipe.)",
+            "quote": "\"Ce spectacle est mien et rien qu'à moi!\""
+        },
+        {
+            "id": "double",
+            "title": "Quitte Ou Double",
+            "description": "Gagnez le Dernier Survivant 'Double Trouble' en tant que Civil.",
+            "quote": "\"Deux fois plus méchant, À moitié puissant.\""
+        },
+        {
+            "id": "seconds",
+            "title": "Secondes qui comptent",
+            "description": "Atteignez 1 heure de jeu.",
+            "quote": "\"Le temps pas vite.\""
+        },
+        {
+            "id": "careless",
+            "title": "Culpabilité du Survivant",
+            "description": "Gagnez le Dernier Survivant 'Inatentif' en tant que Civil.",
+            "quote": "\"Je... n'ai pas pu les sauver...\""
+        },
+        {
+            "id": "golfer",
+            "title": "Enthousiaste de Golf",
+            "description": "Gagnez le mode de jeu Golf.",
+            "quote": "\"Mourir De Mort ce n'était pas à propos de golf??? Pourquoi on rajoute des tueurs tout d'un coup?\""
+        },
+        {
+            "id": "sightbreaker",
+            "title": "Frayeur et Faim",
+            "description": "Gagnez le Dernier Survivant 'Perte Lux-Mineuse'. (de n'importe quelle équipe.)",
+            "quote": "\"La douce senteur de la Victoire.\""
+        },
+        {
+            "id": "shootdown",
+            "title": "Duel au coucher du soleil",
+            "description": "Gagnez le Dernier Survivant 'Vigilante Shootdown'. (de n'importe quelle équipe.)",
+            "quote": "\"Hors-La-Loi Attention À Vous!\""
+        },
+        {
+            "id": "big-spender",
+            "title": "Gros Dépenseur",
+            "description": "Dépensez 10,000 Points.",
+            "quote": "\"Blackiron aprécie votre soutien!\""
+        },
+        {
+            "id": "hot-stuff",
+            "title": "Patate Chaude",
+            "description": "Gagnez le mode de jeu Patate Frie.",
+            "quote": "\"Phiou, c'était chaud!\""
+        },
+        {
+            "id": "bloodshed",
+            "title": "Bain De Sang",
+            "description": "Obtenez 1000 victimes au total.",
+            "quote": "\"Encore combien sont nécéssaire pour satisfaire ta faim?\""
+        },
+        {
+            "id": "rebirth",
+            "title": "Renouveau",
+            "description": "Renaissezpour la première fois dans le mini-jeu Sauce Clicker.",
+            "quote": "\"...\""
+        },
+        {
+            "id": "dienation",
+            "title": "La Plus Grande Menace Dans La Pièce",
+            "description": "Soyez le dernier Tueur debout à la fin d'un round de Dienation.",
+            "quote": "\"N'y a t'il personne qui puisse me faire face? C'est Décevant.\""
+        },
+        {
+            "id": "10kill",
+            "title": "Début Modeste",
+            "description": "Obtenez 10 victimes au total",
+            "quote": "\"Tu pars dans une bonne direction!\""
+        },
+        {
+            "id": "1kill",
+            "title": "Le Premier De Plusieurs",
+            "description": "Obtenez votre première victime.",
+            "quote": "\"Ta première victime!\""
+        },
+        {
+            "id": "lilspender",
+            "title": "P'tit Dépenseur",
+            "description": "Dépensez 1000 Points.",
+            "quote": "\"Un peu ici, un peu pars là!\""
+        },
+        {
+            "id": "standing",
+            "title": "Toujours Debout",
+            "description": "Gagnez en tant que civil sur toutes les cartes normale.",
+            "quote": "\"Encore 160934,4 kilomètre à faire...\""
+        },
+        {
+            "id": "rich-mf",
+            "title": "Porte-Monnaie Sur Pate",
+            "description": "Ayez 10,000 Points à la fois.",
+            "quote": "\"Ce qui équivaut à peu près à 2 Tix!\""
+        },
+        {
+            "id": "let-die",
+            "title": "Vit et laisse mourir.",
+            "description": "Meurs 50 fois.",
+            "quote": "\"Je deviens Insensible à cette sensation.\""
+        },
+        {
+            "id": "100kill",
+            "title": "Encore un de plus au compteur",
+            "description": "Obtenez 100 victimes au total",
+            "quote": "\"99 un de plus pour faire bonne mesures.\""
+        },
+        {
+            "id": "harken-mastery",
+            "title": "Recollection Rayonnante",
+            "description": "Obtenez 250 victimes en tant que Oir.",
+            "quote": "\"...En paix.\""
+        },
+        {
+            "id": "killdroid-mastery",
+            "title": "[MISSION_RÉUSSIE]",
+            "description": "Obtenez 250 victimes en tant que Killdroïde.",
+            "quote": "\"DIRECTIVE COMPLÉTÉ: CIBLES EN MORCEAUX AVEC SUCCÈS.\""
+        },
+        {
+            "id": "miséricorde",
+            "title": "Les Misérables",
+            "description": "Obtenez 250 victimes en tant que Artful.",
+            "quote": "\"\""
+        },
+        {
+            "id": "badware-mastery",
+            "title": "[PURGE_SYSTÈME]",
+            "description": "Obtenez 250 victimes en tant que Mal://Ware.",
+            "quote": "\"[Vos fichiers ont été encryptés!]\""
+        },
+        {
+            "id": "pursuer-mastery",
+            "title": "Le Frisson De La Chasse",
+            "description": "Atteignez 250 victime en tant que Poursuivant.",
+            "quote": "\"Ahh... Viande Fraiche..\""
+        },
+        {
+            "id": "two-birds",
+            "title": "2 Oiseaux, Une Pierre!",
+            "description": "Obtenez un double meurtre.",
+            "quote": "\"But imagine the birds are Civilian, and the stone is a Rocket.\""
+        },
+        {
+            "id": "nah-ah",
+            "title": "Je N'ai Plus Peur De Toi Maintenant!",
+            "description": "Étourdissez le tueur 7 fois en une seule partie.",
+            "quote": "\"Allez ! Viens en chercher !!\""
+        },
+        {
+            "id": "rebirth2",
+            "title": "Born, Again?",
+            "description": "Rebirth for the 5th time on the Sauce Clicker minigame.",
+            "quote": "\"...\""
+        },
+        {
+            "id": "lebron",
+            "title": "3-POINTER",
+            "description": "Hit 3 people at once or kill someone with Killdroid's Propel ability.",
+            "quote": "\"I'm pretty sure jetpacks aren't allowed during a standard basket ball match...\""
+        },
+        {
+            "id": "slaughterhouse",
+            "title": "Slaughterhouse",
+            "description": "Wipe a full lobby as the killer.",
+            "quote": "\"Leave none standing in your wake.\""
+        },
+        {
+            "id": "help-wanted",
+            "title": "Help Wanted",
+            "description": "Beat 4/25 on the FNAF minigame.",
+            "quote": "\"...\""
+        },
+        {
+            "id": "nightmare",
+            "title": "Lucid Nightmare",
+            "description": "Block Evil Scary.",
+            "quote": "\"I can't BELIEVE I just did that!\""
+        },
+        {
+            "id": "spec-tater",
+            "title": "Spec-Tater",
+            "description": "Win the FryBomber gamemode without being tagged once.",
+            "quote": "\"Hey don't look at me! I didn't do anything!\""
+        },
+        {
+            "id": "combat-medic",
+            "title": "Combat Medic",
+            "description": "Heal teammates 30 times in a single match.",
+            "quote": "\"\""
+        },
+        {
+            "id": "mulligan",
+            "title": "Mulligan",
+            "description": "Manage to complete a room in Golf without using the 'Hit' ability.",
+            "quote": "\"That's a gimmie... so were all those previous ones.\""
+        },
+        {
+            "id": "scratch",
+            "title": "Tis But A Scratch",
+            "description": "Win as a civilian without taking any damage at all.",
+            "quote": "\"Huh? Did something happen?\""
+        },
+        {
+            "id": "dod-any%",
+            "title": "Die Of Death Any% WR",
+            "description": "Die within the first 20 seconds of a match.",
+            "quote": "\"Aww sweet! New PB!!\""
+        },
+        {
+            "id": "deep-dive",
+            "title": "Deep Dive",
+            "description": "Win a match on Baseplate with less than 20 Health and 30 Oxygen remaining.",
+            "quote": "\"Maybe stay out of the Deep End next time.\""
+        },
+        {
+            "id": "1hp",
+            "title": "Teetering On The Edge Of Life",
+            "description": "Win with exactly 1 HP left.",
+            "quote": "\"I don't even know how I got into this position and I'm scared.\""
+        },
+        {
+            "id": "youtube",
+            "title": "Every DoD Youtuber Be Like:",
+            "description": "Serverwipe a lobby without ever using your M1 as killer. (5 player server required.)",
+            "quote": "\"Look at me mom! I'm famous!!\""
+        },
+        {
+            "id": "for-those",
+            "title": "For Those We Lost Along The Way",
+            "description": "Win as the Dernier Survivant in a full civilian server.",
+            "quote": "\"Everyone. This one's for you.\""
+        },
+        {
+            "id": "the-best-def",
+            "title": "The Best Defense...",
+            "description": "Block 6 times in a single match.",
+            "quote": "\"Is a good helmet!\""
+        },
+        {
+            "id": "meet-the-sniper",
+            "title": "Meet The Sniper",
+            "description": "Hit a projectile from over 125 studs away.",
+            "quote": "\"It's a good job.\""
+        },
+        {
+            "id": "albatross",
+            "title": "Albatross",
+            "description": "Complete a Golf room in under 10 seconds starting when the ball is spawned.",
+            "quote": "Not actually an Albatross, but why are so many things in Golf named after birds?"
+        },
+        {
+            "id": "trophy",
+            "title": "Participation Trophy",
+            "description": "Win without using any abilities as civilian.",
+            "quote": "\"You sure... I don't think 'tried' is the right word actually.\""
+        },
+        {
+            "id": "luck",
+            "title": "Luck of the Draw",
+            "description": "Manage to reroll a total of 5 times.",
+            "quote": "\"One more spin wouldn't hurt.\""
+        },
+        {
+            "id": "give-'em-hell",
+            "title": "Give Em' Hell!",
+            "description": "Buff 5 teammates with Bugle at once.",
+            "quote": "\"Last one alive, lock the door!\""
+        },
+        {
+            "id": "mann-vs.-machine",
+            "title": "Mann Vs Machine",
+            "description": "As Badware, have 4 computers active at once.",
+            "quote": "\"B)\""
+        },
+        {
+            "id": "comeback",
+            "title": "Don't Call It A Comeback!",
+            "description": "Block an attack that would have killed you.",
+            "quote": "\"That would imply I was ever losing!\""
+        },
+        {
+            "id": "waterbaby",
+            "title": "Water Baby",
+            "description": "Ma, dry me thy carcass.",
+            "quote": "\"...\""
+        },
+        {
+            "id": "spine",
+            "title": "My spine hurts every night",
+            "description": "Blue caramel fills my mind with peace.",
+            "quote": "\"Thank you.\""
+        },
+        {
+            "id": "kaboom",
+            "title": "KABOOOM!",
+            "description": "I have one last card up my sleeve!",
+            "quote": "\"Shocking.\""
+        }
+    ]
+}
