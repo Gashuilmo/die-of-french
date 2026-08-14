@@ -42,7 +42,6 @@ button {
 
 .Button:hover {
     filter: invert(7%);
-
 }
 
 .music-mute {

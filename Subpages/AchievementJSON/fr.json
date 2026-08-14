@@ -74,7 +74,7 @@
         },
         {
             "id": "death",
-            "title": "Here Lies: You",
+            "title": "Ici Repose: Vous",
             "description": "Mourez une fois.",
             "quote": "\"Vous nous manquerez.\""
         },
@@ -326,9 +326,9 @@
         },
         {
             "id": "meet-the-sniper",
-            "title": "Meet The Sniper",
-            "description": "Hit a projectile from over 125 studs away.",
-            "quote": "\"It's a good job.\""
+            "title": "À La Rencontre Du Sniper",
+            "description": "Touchez une cible avec un projectile à plus de 125 tenons de distance.",
+            "quote": "\"C'est un bon boulot.\""
         },
         {
             "id": "albatross",
