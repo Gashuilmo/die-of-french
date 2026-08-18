@@ -1,0 +1,562 @@
+{
+    "achievements": [
+        {
+            "category": "fun"
+        },
+        {
+            "id": "hungry",
+            "title": "I'm Very Hungry!",
+            "description": "Heal 80 HP in total with Hotdog.",
+            "quote": "\"Your Gluttony Sickens Me.\""
+        },
+        {
+            "id": "golf",
+            "title": "Violent Golf",
+            "description": "Be the one to trigger Golf Time in Golf.",
+            "quote": "\"If you hurt the golfball too much, you'll go to the Banlands!\""
+        },
+        {
+            "id": "laundry",
+            "title": "Laundry List",
+            "description": "Complete a task as a Civilian.",
+            "quote": "\"I'm gonna be here for a while...\""
+        },
+        {
+            "id": "fan",
+            "title": "I'm your Biggest Fan",
+            "description": "Have a friendly hug with the fan in the lobby.",
+            "quote": "\"No, I'm a Big Fan.\""
+        },
+        {
+            "id": "saver",
+            "title": "Lifesaver",
+            "description": "Heal someone that is below 15 HP as Caretaker.",
+            "quote": "\"THANK YOU FOR SAVING ME!! I WAS SO THIRSTY!!\""
+        },
+        {
+            "id": "scholar",
+            "title": "Studious Scholar",
+            "description": "Spend over 10 minutes in the Library.",
+            "quote": "\"The Lore can't be THAT good, can it?\""
+        },
+        {
+            "id": "synergy",
+            "title": "Best Of Both Worlds",
+            "description": "Pick a Synergy deck.",
+            "quote": "\"Finally, REAL firepower.\""
+        },
+        {
+            "id": "karma",
+            "title": "Karma Called",
+            "description": "Emote on the killer and get killed by them within the next 5 seconds.",
+            "quote": "\"You had that coming.\""
+        },
+        {
+            "id": "shift",
+            "title": "Never-Ending Shift",
+            "description": "Complete a night on the FNAF minigame! (Can't have any zeros)",
+            "quote": "\"...\""
+        },
+        {
+            "id": "shift",
+            "title": "Never-Ending Shift",
+            "description": "Complete a night on the FNAF minigame! (Can't have any zeros)",
+            "quote": "\"...\""
+        },
+        {
+            "id": "sight",
+            "title": "Sight Slaying",
+            "description": "Win as killer on every normal map.",
+            "quote": "So many sights, so little time!"
+        },
+        {
+            "id": "minutes",
+            "title": "Measuring Minutes",
+            "description": "Reach 10 Hours of playtime.",
+            "quote": "\"Time Wasted(?)\""
+        },
+        {
+            "id": "bounce",
+            "title": "I'm Just Saiyan'",
+            "description": "Win One Bounce LMS as Civilian.",
+            "quote": "\"I like those odds..!\""
+        },
+        {
+            "id": "death",
+            "title": "Here Lies: You",
+            "description": "Die once.",
+            "quote": "\"You will be missed.\""
+        },
+        {
+            "id": "showtime",
+            "title": "Stealing The Spotlight",
+            "description": "Win the 'Showtime' LMS. (on any side.)",
+            "quote": "\"This shows mine all mine!\""
+        },
+        {
+            "id": "double",
+            "title": "Double Or Nothing",
+            "description": "Win the 'Double Trouble' LMS as civilian.",
+            "quote": "\"Twice the Threats, Half the Firepower.\""
+        },
+        {
+            "id": "seconds",
+            "title": "Counting Seconds",
+            "description": "Reach 1 Hour of playtime.",
+            "quote": "\"Time sure flies.\""
+        },
+        {
+            "id": "careless",
+            "title": "Survivor's Guilt",
+            "description": "Win the 'Careless' LMS as a Civilian.",
+            "quote": "\"I... couldn't save them...\""
+        },
+        {
+            "id": "golfer",
+            "title": "Golf Enthusiast",
+            "description": "Beat the Golf gamemode.",
+            "quote": "\"Wasn't Die of Death about golf??? Why are they adding killers all of a sudden?\""
+        },
+        {
+            "id": "sightbreaker",
+            "title": "Fear And Hunger",
+            "description": "Win the 'Sightbreaker' LMS. (on any side.)",
+            "quote": "\"The winning smell of Victory.\""
+        },
+        {
+            "id": "shootdown",
+            "title": "High Noon",
+            "description": "Win the 'Vigilante Shootdown' LMS. (on any side.)",
+            "quote": "\"Outlaws Beware!\""
+        },
+        {
+            "id": "big-spender",
+            "title": "Big Spender",
+            "description": "Spend 10,000 Points.",
+            "quote": "\"Blackiron appreciates your support!\""
+        },
+        {
+            "id": "hot-stuff",
+            "title": "Hot Stuff",
+            "description": "Win the FryBomber gamemode.",
+            "quote": "\"Phew, that was close!\""
+        },
+        {
+            "id": "bloodshed",
+            "title": "Bloodshed",
+            "description": "Obtain 1000 kills in total.",
+            "quote": "\"How many more are needed to satisfy your hunger?\""
+        },
+        {
+            "id": "rebirth",
+            "title": "Born Again",
+            "description": "Rebirth for the first time on the Sauce Clicker minigame.",
+            "quote": "\"...\""
+        },
+        {
+            "id": "dienation",
+            "title": "Biggest Threat In The Room",
+            "description": "Be the last Killer standing in the Dienation gamemode.",
+            "quote": "\"Is there none who can stand against me? How Dissappointing.\""
+        },
+        {
+            "id": "10kill",
+            "title": "Humble Beginnings",
+            "description": "Obtain 10 kills in total",
+            "quote": "\"Now you're getting somewhere!\""
+        },
+        {
+            "id": "1kill",
+            "title": "The First Of Many",
+            "description": "Get your first kill.",
+            "quote": "\"Your first kill!\""
+        },
+        {
+            "id": "lilspender",
+            "title": "Little Spender",
+            "description": "Spend 1000 Points.",
+            "quote": "\"A little here, a little there!\""
+        },
+        {
+            "id": "standing",
+            "title": "Still Standing",
+            "description": "Win as civilian on every normal map.",
+            "quote": "\"A Hundred Thousand more miles to travel...\""
+        },
+        {
+            "id": "rich-mf",
+            "title": "Sizable Wallet",
+            "description": "Have 10,000 Points at once.",
+            "quote": "\"Roughly converts into 2 Tix!\""
+        },
+        {
+            "id": "let-die",
+            "title": "Live And Let Die.",
+            "description": "Die 50 times.",
+            "quote": "\"Growing Numb to this feeling.\""
+        },
+        {
+            "id": "100kill",
+            "title": "Another Mark On The Tally",
+            "description": "Obtain 100 kills in total.",
+            "quote": "\"99 and one more for good measure.\""
+        },
+        {
+            "id": "harken-mastery",
+            "title": "Vivid Recollection",
+            "description": "Get 250 kills as Harken.",
+            "quote": "\"...At peace.\""
+        },
+        {
+            "id": "killdroid-mastery",
+            "title": "[MISSION_SUCCESS]",
+            "description": "Get 250 kills as Killdroid.",
+            "quote": "\"DIRECTIVE COMPLETE: SUCCESSFULLY BLASTED TARGET TO SMITHEREENS.\""
+        },
+        {
+            "id": "miséricorde",
+            "title": "Les Misérables",
+            "description": "Get 250 kills as Artful.",
+            "quote": "\"\""
+        },
+        {
+            "id": "badware-mastery",
+            "title": "[SYSTEM_PURGE]",
+            "description": "Get 250 kills as Badware.",
+            "quote": "\"[Your files have been encrypted!]\""
+        },
+        {
+            "id": "pursuer-mastery",
+            "title": "Thrill of the Hunt",
+            "description": "Get 250 kills as Pursuer.",
+            "quote": "\"Ahh... Fresh Meat..\""
+        },
+        {
+            "id": "two-birds",
+            "title": "Two Birds, One Stone!",
+            "description": "Get a double kill.",
+            "quote": "\"But imagine the birds are Civilian, and the stone is a Rocket.\""
+        },
+        {
+            "id": "nah-ah",
+            "title": "I'm Not Afraid Of You Anymore!",
+            "description": "Stun the killer 7 times in a single match.",
+            "quote": "\"Come on! Come get some!!\""
+        },
+        {
+            "id": "rebirth2",
+            "title": "Born, Again?",
+            "description": "Rebirth for the 5th time on the Sauce Clicker minigame.",
+            "quote": "\"...\""
+        },
+        {
+            "id": "lebron",
+            "title": "3-POINTER",
+            "description": "Hit 3 people at once or kill someone with Killdroid's Propel ability.",
+            "quote": "\"I'm pretty sure jetpacks aren't allowed during a standard basket ball match...\""
+        },
+        {
+            "id": "slaughterhouse",
+            "title": "Slaughterhouse",
+            "description": "Wipe a full lobby as the killer.",
+            "quote": "\"Leave none standing in your wake.\""
+        },
+        {
+            "id": "help-wanted",
+            "title": "Help Wanted",
+            "description": "Beat 4/25 on the FNAF minigame.",
+            "quote": "\"...\""
+        },
+        {
+            "id": "nightmare",
+            "title": "Lucid Nightmare",
+            "description": "Block Evil Scary.",
+            "quote": "\"I can't BELIEVE I just did that!\""
+        },
+        {
+            "id": "spec-tater",
+            "title": "Spec-Tater",
+            "description": "Win the FryBomber gamemode without being tagged once.",
+            "quote": "\"Hey don't look at me! I didn't do anything!\""
+        },
+        {
+            "id": "combat-medic",
+            "title": "Combat Medic",
+            "description": "Heal teammates 30 times in a single match.",
+            "quote": "\"\""
+        },
+        {
+            "id": "mulligan",
+            "title": "Mulligan",
+            "description": "Manage to complete a room in Golf without using the 'Hit' ability.",
+            "quote": "\"That's a gimmie... so were all those previous ones.\""
+        },
+        {
+            "id": "scratch",
+            "title": "Tis But A Scratch",
+            "description": "Win as a civilian without taking any damage at all.",
+            "quote": "\"Huh? Did something happen?\""
+        },
+        {
+            "id": "dod-any%",
+            "title": "Die Of Death Any% WR",
+            "description": "Die within the first 20 seconds of a match.",
+            "quote": "\"Aww sweet! New PB!!\""
+        },
+        {
+            "id": "deep-dive",
+            "title": "Deep Dive",
+            "description": "Win a match on Baseplate with less than 20 Health and 30 Oxygen remaining.",
+            "quote": "\"Maybe stay out of the Deep End next time.\""
+        },
+        {
+            "id": "1hp",
+            "title": "Teetering On The Edge Of Life",
+            "description": "Win with exactly 1 HP left.",
+            "quote": "\"I don't even know how I got into this position and I'm scared.\""
+        },
+        {
+            "id": "youtube",
+            "title": "Every DoD Youtuber Be Like:",
+            "description": "Serverwipe a lobby without ever using your M1 as killer. (5 player server required.)",
+            "quote": "\"Look at me mom! I'm famous!!\""
+        },
+        {
+            "id": "for-those",
+            "title": "For Those We Lost Along The Way",
+            "description": "Win as the LMS in a full civilian server.",
+            "quote": "\"Everyone. This one's for you.\""
+        },
+        {
+            "id": "the-best-def",
+            "title": "The Best Defense...",
+            "description": "Block 6 times in a single match.",
+            "quote": "\"Is a good helmet!\""
+        },
+        {
+            "id": "meet-the-sniper",
+            "title": "Meet The Sniper",
+            "description": "Hit a projectile from over 125 studs away.",
+            "quote": "\"It's a good job.\""
+        },
+        {
+            "id": "albatross",
+            "title": "Albatross",
+            "description": "Complete a Golf room in under 10 seconds starting when the ball is spawned.",
+            "quote": "Not actually an Albatross, but why are so many things in Golf named after birds?"
+        },
+        {
+            "id": "trophy",
+            "title": "Participation Trophy",
+            "description": "Win without using any abilities as civilian.",
+            "quote": "\"You sure... I don't think 'tried' is the right word actually.\""
+        },
+        {
+            "id": "luck",
+            "title": "Luck of the Draw",
+            "description": "Manage to reroll a total of 5 times.",
+            "quote": "\"One more spin wouldn't hurt.\""
+        },
+        {
+            "id": "give-'em-hell",
+            "title": "Give Em' Hell!",
+            "description": "Buff 5 teammates with Bugle at once.",
+            "quote": "\"Last one alive, lock the door!\""
+        },
+        {
+            "id": "mann-vs.-machine",
+            "title": "Mann Vs Machine",
+            "description": "As Badware, have 4 computers active at once.",
+            "quote": "\"B)\""
+        },
+        {
+            "id": "comeback",
+            "title": "Don't Call It A Comeback!",
+            "description": "Block an attack that would have killed you.",
+            "quote": "\"That would imply I was ever losing!\""
+        },
+        {
+            "id": "waterbaby",
+            "title": "Water Baby",
+            "description": "Ma, dry me thy carcass.",
+            "quote": "\"...\""
+        },
+        {
+            "id": "spine",
+            "title": "My spine hurts every night",
+            "description": "Blue caramel fills my mind with peace.",
+            "quote": "\"Thank you.\""
+        },
+        {
+            "id": "kaboom",
+            "title": "KABOOOM!",
+            "description": "I have one last card up my sleeve!",
+            "quote": "\"Shocking.\""
+        }
+    ],
+    "killers": [
+        {
+            "id": "pursuer",
+            "name": "Pursuer",
+            "description":"Description",
+            "descriptiontext":"\"A dangerous Apex Predator of unknown origin, its speed and hunting abilities are unmatched. With its unique ability to turn completely invisible, it's able to sneak up on unsuspecting prey before quickly dispatching of them without a trace. By the time you hear its howl far off in the distance, [c:red]it's already too late[/c].\"",
+            "stats":"Stats",
+            "stamina":"MaxStamina: 110",
+            "walkspeed":"WalkSpeed: 8.75",
+            "sprintspeed":"SprintSpeed: 27.5",
+            "health":"Health: 900",
+            "playstyle":"Playstyle: Rushdown",
+            "passive":"Passives",
+            "passivesmall":"No passives...",
+            "abilities":"Abilities",
+
+            "swing":"Swing",
+            "swingquote":"\"Its claws were like razors, it tore through [c:red][REDACTED][/c] like he was paper....\"",
+            "swingdesc":"After 0.25s, Pursuer quickly slashes forward with one of its claws for 0.25s, dealing 20 damage.",
+
+            "cleave":"Cleave",
+            "cleavequote":"As soon as it got it's hands on that sword, it seemed like it was second nature...",
+            "cleavedesc":"Pursuer receives a speed boost and quickly winds up his sword, slashing anyone unfortunate enough to be in range.[br]Upon hitting a Civilian, they'll take 20 damage and an additional 10 [c:red]Bleed[/c] damage over 5 seconds. The Civilian is highlighted to Pursuer for the entirety of the [c:red]Bleed[/c] duration. [c:red]Bleed[/c] is not lethal, and it will stop at 1 health.[br]Once the attack is over, Pursuer puts his sword onto his back again and receives [c:orange]Slowness[/c] for 1.5 seconds, leaving him incredibly vulnerable to attacks.[br]This attack can hit multiple targets at once",
+
+            "howl":"Howl",
+            "howlquote":"That piercing wail... Nothing dare make any sound to contest its call.",
+            "howldesc":"Pursuer stops in place for a second and howls, letting out a shockwave projectile forward.[br] This shockwave applies [c:orange]Slowness[/c] to anyone it touches and highlights them to you for 4 seconds, Additionally, it grants Pursuer a very short speed boost.[br]The shockwave initially starts off as a small and weak projectile. The duration and strength of the [c:orange]Slowness[/c] applied will increase the further the projectile travels.",
+
+            "stalk":"Stalk/Unshroud",
+            "stalkquote":"I still remember it vividly... the feeling of it breathing down my neck... yet I couldn't see it.",
+            "stalkdesc":"Pursuer stops in place for 2 seconds and does a scary weird thing, granting Pursuer full invisibility.[br]If Pursuer uses this ability while within a 25 stud radius of a Civilian, it will be sped up by 75%. While this invisibility is active, Pursuer will:[p:tab]- Receive increased movement speed.[br1]- Receive the ability to see all Civilians globally.[br1]- Swing is completely locked and cannot be used.[br1]- Cleave and Howl are replaced with 2 separate abilities, see below[br1]- Stamina regeneration is lowered by 50%[/p]The invisibility will naturally expire after 15 seconds, though Pursuer can recast this ability to end it early. Once the invisibility is over, Pursuer gets heavy [c:orange]Slowness[/c] and loses the ability to run for 1 second.",
+
+            "lunge":"Lunge ",
+            "lungequote":"\"Many hear the tale of how Pursuer is defenseless while invisible...\"",
+            "lungedesc":"Pursuer unshrouds and stops in place for 0.25s and dashes forward with his dagger, striking anyone infront of him. Any Civilian unfortunate enough to get hit will take 20 damage, and an additional 10 through [c:red]Bleed.[/c]",
+
+            "chomp":"Chomp",
+            "chompquote":"\"Its victims were found torn and thrashed mercilessly, yet there were very few bite marks on each.\"",
+            "chompdesc":"Pursuer quickly unshrouds and stops in place for 0.4s, before \"chomping\" forward. Any Civilians hit by this will take 10 damage, and an additional 5 through [c:red]Bleed[/c]  overtime.[br]The [c:red]Bleed[/c] will keep increasing by 5 for every Civilian hit by attack at once."
+        },
+        {
+            "id": "artful",
+            "name": "Artful",
+            "description":"Description",
+            "descriptiontext":"\"is a French Magician who's had a deep connection to magic since birth, and WAS a popular celebrity before his... \"[c:italic]incident.[/c]\"[br]After one of his performances went particularly badly, Artful let his emotions get the better of him and resorted to \"taking out his frustrations on his entire audience.\" He now lives his life as a criminal on the run, too afraid to turn himself in and deal with the consequences of his actions.\"",
+            "stats":"Stats",
+            "stamina":"MaxStamina: 100",
+            "walkspeed":"WalkSpeed: 9.5",
+            "sprintspeed":"SprintSpeed: 26.75",
+            "health":"Health: 750 ",
+            "playstyle":"Playstyle: Trapper",
+            "passive":"Passives",
+            "passivesmall":"[c:hawkesblue]MAGICIANS INTUITION[/c] - \"A magician never reveals their tricks!\" - Artful[br]Artful's traps are passively highlighted to him at all times. This includes:[br1]- Implement[br1]-MusicBox[br1]-Puppets[br1]Additionally, the number of traps placed down is shown at all times",
+            "abilities":"Abilities",
+            "swing":"Swing",
+            "swingquote":"\"With a flick of my wand- I bring your wildest dreams- into reality...!\"",
+            "swingdesc":"",
+            "implement":"implement",
+            "implementquote":"\"The only thing stopping you from achieving your dreams are the mental roadblocks you set before yourself!\"",
+            "implementdesc":"After a 1-second windup, Artful creates a wall that slowly rises from the floor over time at his position. The wall is 10 studs wide and 5 studs tall.[br]Walls have 110 HP and lose 1 HP overtime. Civilians can attack walls to speed up their destruction process.[br1]You can only have 5 walls up at a time; attempting to place a new one will replace the oldest wall.[br]If Artful walks through his own wall, it will be temporarily opened for anyone to pass through for 2 seconds",
+            "copywrite":"Copywrite",
+            "copywritequote":"\"Like what you hear? All the music here is made by yours Truly! You can buy it at the Giftshop!\"",
+            "copywritedesc":"After a 2-second windup, Artful creates a MusicBox at his position.[br]The MusicBox has a range of 25 studs, and if a Civilian enters its range, they will receive heavy slowness and be highlighted to Artful, one person at a time.[br]The MusicBox CAN be destroyed, but it does not passively lose health over time.[br]You can only have 2 MusicBoxes active at a time.",
+            "repurpose":"Repurpose",
+            "repurposequote":"\"Who's to say you can't teach an old magician new tricks?\"",
+            "repurposedesc":"Artful slows down for 0.5 seconds and reaches forward with his wand, \"Pocketing\" whatever and whoever is in range.[br]Pocketing a Wall puts Implement on a 5-second cooldown and allows Artful to throw a projectile that deals 15 damage. If a Civilian is hit by this projectile while being farther than 15 studs away, they will be ragdolled for 1 second.[br1]The projectile cannot pass through walls and has a small splash range upon hitting something.[br]Pocketing a MusicBox puts MusicBox on a 10-second cooldown and allows Artful to speed himself up using it. The MusicBox floats above him, and he stops in place for 2 seconds, then gives him a sizable speed increase for 5 seconds, while also highlighting any Civilian globally.[br]\"Pocketing\" a Civilian allows Artful to create a Puppet. The Puppet has a brief animation of being summoned before actively hunting down the nearest Civilian, stopping at nothing until it reaches its target.[br1]Similar to Walls, the Puppet naturally drains HP and perishes when it reaches 0 HP. It can also be attacked by Civilians to be killed early.[br1]If the Puppet reaches and attacks someone, it will deal 15 damage and then slow itself down for 1.5 seconds.[br1]Attempting to repurpose a Puppet will simply destroy it and give you the same effects as a pocketed wall[br1]"
+
+        },
+        {
+            "id": "badware",
+            "name": "Badware",
+            "description":"Description",
+            "descriptiontext":"\"\"",
+            "stats":"Stats",
+            "stamina":"MaxStamina: 100",
+            "walkspeed":"WalkSpeed: 9.5",
+            "sprintspeed":"SprintSpeed: 26.75",
+            "health":"Point De Vie: 750 ",
+            "playstyle":"Style De Jeu: Zoneur/Piégeur",
+            "passive":"Passives",
+            "passivesmall":"No Passives...",
+            "abilities":"Abilities",
+            "swing":"Swing",
+            "swingquote":"\"[IT'S CALLED HARDWARE FOR A REASON!]\"",
+            "swingdesc":"",
+            "firewall":"Firewall Bypass",
+            "firewallquote":"\"[NICE ENCRYPTION ALGORITHM, WHAT WAS THAT MADE IN, LUA?]\"",
+            "firewalldesc":"Badware stops in place for 1 second and creates a PC at their exact current location. When Badware is in a 50 stud radius of a computer, they will be granted the following effects:[br]+2.25 Runspeed[br1]+1.5 Walkspeed[br1]+Bolt [Ability 2] becomes significantly stronger[br]Badware is able to have up to 4 PCs at max. Attempting to place a new PC at 4 placed will simply destroy the oldest one and place another one down at your current location.[br]PCs start at 100% progress, but slowly drain down to 0% overtime. Once a PC hits 0%, it will self-destruct and disable. Badware is notified when a PC is destroyed.[br]In order to keep your PCs up and running, you must rely off of your other abilities in order to extend the lifetime of your PCs.[br]If any Civilian is in radius of a PC for more then 3 seconds, they will be highlighted to Badware.[br1]Badware is able to be buffed by multiple PCs at a time.",
+            "bolt":"Bolt",
+            "boltquote":"\"[YOU CAN'T STOP ME, YOUR NETCODE JUST MAKES ME STRONGER!]\"",
+            "boltdesc":"Badware stops in place for a second before bolting forward.[br1]While Bolting,Badware loses -10 SP every 1s. Hitting 0 SP will NOT cancel the Bolt early. If Badware does not hit a target within 4 seconds while Bolting, or crashes into a wall or object, the Bolt will end and Badware will be stopped in place for 2 seconds.[br] Hitting a Civilian with Bolt normally will deal 20 damage, and stop Badware in place for 2 seconds.[br]If Badware enters PC range while bolting, the Bolts duration will have 3 seconds added onto it. Hitting a Civilian while Bolting in PC range will result in Badware forcefully grabbing the Civilian, before throwing them forward dealing a total of 25 damage.[br]If a Civilian hits a PC while being thrown, it will destroy the PC, deal 10 Bleed damage, and grant 40% progress to any other PCs.",
+            "rift":"Rift",
+            "riftquote":"\"[I'M LIKE ONE OF THOSE POP-UPS YOU JUST CAN'T SEEM TO GET RID OF!]\"",
+            "riftdesc":"Badware stops in place and enters a stance, slightly abstracting all Civilian's screens with a taunting message.[br]While in this stance:[br1]Badware cannot run and moves incredibly slowly.[br1]All PCs will have an icon above them. Clicking on one of these icons will cause Badware to perform a quick animation and teleport to the selected PC, additionally exploding it and granting Badware a short speed boost. Teleporting to a PC grants 20% progress to all PCs.[br]If a Civilian is near the PC during the Rifts explosion, they will take 10 damage and suffer a short ragdoll"       
+        },
+        {
+            "id": "killdroid",
+            "name": "Killdroid",
+            "description":"Description",
+            "descriptiontext":"\"[c:killdroidred]Killdroid[/c] is an experimental robotic bodyguard prototype that was planned to be mass produced by the Government to watch over and protect Civilians.[br1]However, during one of their test runs, they began going haywire and went rogue, trashing the testing site they were at, and escaping out into the world. The Government still doesn't know the cause of it's malfunction and all mass production efforts have been put on hiatus until further notice.\"",
+            "stats":"Stats",
+            "stamina":"MaxStamina: 110",
+            "walkspeed":"WalkSpeed: 8",
+            "sprintspeed":"SprintSpeed: 27",
+            "health":"Health: 900 ",
+            "playstyle":"Playstyle: Zoner",
+            "passive":"Passives",
+            "passivesmall":"[c:red]IGNORANCE[/c] - \"PROCESSING COMMAND... COMMAND OVERRULED.\"[br]Killdroid has a unique property of being able to bypass any map barriers, both good and bad, to use to his advantage.[br]Killdroid is able to take routes and shortcuts no other killer is able to.",
+            "abilities":"Abilities",
+            "eject":"Eject",
+            "ejectquote":"\"Ensuring all rocket modules working correctly, correctly calculated all angles of variance, and FIRE!\"",
+            "ejectdesc":"Killdroid briefly slows down heavily, and readies one of his rocket launchers, before quickly firing a rocket directly forwards.[br]The rocket will explode upon making contact with anything, dealing 25 damage in an AOE explosion radius around what it hits.[br]The AOE explosion of the rocket can go through walls.[br]The rocket is not affected by gravity and will always fly straight infront of where Killdroid is facing.",
+            "flight":"Flight",
+            "flightquote":"\"Calibrating all Thrusters, Shifting weight to improve aerodynamics, and we have LIFT OFF!\"",
+            "flightdesc":"Killdroid pauses in place, releasing a warning sound, before rocketing into the air, giving himself a reticle that always targets the nearest player. You have full movement control in the air aswell.[br]During this time, Killdroid's Eject will lock onto the nearest target, and fly straight towards them, giving Killdroid a \"light auto aim\".[br]Upon hitting a wall, or slowly lowering to the floor after some time, Killdroid will \"Crashland\" due to his faulty Jetpack, briefly preventing him from moving, but he is still able to attack or use other abilities.[br]Using Propel while Flight is active will end Flight early, and cause Killdroid to cash-land directly below them, dealing 25 damage and & shortly ragdolling.",
+            "killbot":"Deploy",
+            "killbotquote":"\"ACCESSING REMOTE DATABASE, SENDING S.O.S. SIGNAL. REQUESTING BACKUP.\"",
+            "killbotdesc":"Killdroid pulls out a walkie-talkie, and requests assistance.[br]A Killbot will spawn in at Killdroids current position, ready to attack any Civilians nearby.[br1]If a Civilian enters in range of a Killbot, the Killbot will start firing rockets towards them, additionally highlighting the Civilian to Killdroid.[br1]You can only have 4 Killbots alive at a time, and attempting to place another down at maximum capacity will simply replace the oldest one.[br]Killbots have 20 HP total, and lose -1 HP every 3 seconds. Killbots cannot be damaged by any means for 3 seconds once placed down. Once a Killbot hits 0 HP, it will destroy itself.",
+            "propel":"Propel",
+            "propelquote":"\"REROUTING EXCESS WEIGHT, NEUTRALIZING TARGET\"",
+            "propeldesc":"Killdroid stops in place for a second before leaping upwards, preparing a strong crash-landing.[br1]Once Killdroid crash-lands, they will deal 25 damage to those around them.[br]Using this ability while Flight is active will cancel Flight early and cause Killdroid to crash land directly below him, dealing the same effects as a normal Propel crash-land"
+        },
+        {
+            "id": "harken",
+            "name": "Harken",
+            "description":"Description",
+            "descriptiontext":"\"The [c:yellow]Harken[/c] is a Construct originating from an Alternate Dimension, where noise draws in larger, more dangerous Constructs. After Government Scientists created a portal connecting their two universes together, it caught the attention of Harken, who crossed to the other side, and went into a frenzy, slaughtering the Scientists to attempt to silence them, and stay hidden from potential threats. She now spends her days wandering our world, seeking silence, and killing any Civilians unlucky enough to be heard by Her.\"",
+            "stats":"Stats",
+            "stamina":"MaxStamina: 114",
+            "walkspeed":"WalkSpeed: 9",
+            "sprintspeed":"SprintSpeed: 27.5",
+            "health":"Health: 400",
+            "playstyle":"Playstule: Resource Management/ Zoner",
+            "passive":"Passives",
+            "passivesmall":"[c:yellow]ECHO LOCATION[/c] - \"We should be cautious, we don't want to bring any attention to ourselves.\" - One of the Scientists on the Exploration Team.[br]Harken, at all times, has a Noise Meter that's visible to all players at all [br1]times. Noise starts at 0 naturally.[br1]Noise is gained through her own ability usage, and any incoming Noise from a civilian is multiplied if a Civilian has the \"Noisy\" status effect.All of Harkens ability apply Noisy to some extent in her Calm state.[br]Noise is Harkens main resource for her 4th ability, \"Enrage\".",
+
+            "abilities":"Abilities",
+            "swing":"Swing",
+            "swingquote":"\"You can't be afraid to get your own hands dirty every once in a while.\"",
+            "swingdesc":"Harken swings her javelin forward after a 0.25s windup and deals 15 damage.[br]Applies x1.1 Noisy for 10 seconds (which stacks) to whoever was hit, and grants Harken 5 Noise.[br1]Regens 10 HP to Harken if successfully hit in Enrage.",
+
+            "repress":"Repress",
+            "repressquote":"\"Keep calm, and stay quiet.\"",
+            "repressdesc":"Harken Is granted 10 Noise, gets set to walking speed and manifests a \"Noise Zone\" around herself. This zone constantly follows Harken, ableit at a delay.[br]Any civilian who enters this zone will be granted x1.1 Noise for 10 seconds (which stacks). The Noisy multiplier will keep increasing for every second the civilian spends inside of the zone. Additionally, for every Civilian inside the zone, Harken will regen 3 HP per second.[br]The zone lasts for 15 seconds before disappearing.",
+            "agitation":"Agitation",
+            "agitationquote":"\"Just as father taught me.\"",
+            "agitationdesc":"Harken is granted 5 Noise, stops in place for 2 seconds, and stabs the floor with her javelin sending out 10 shockwaves of light that sequentially spawns in front of her. [br]These shockwaves deal 15 damage on initial contact, and 5 damage every 0.25s afterwards.[br]Additionally, they apply [c:orange]Slowness 2[/c] for 2 seconds, 1.1x noisy for 10 seconds, and grants Harken 5 noise.",
+
+            "enrage":"Enrage",
+            "enragequote":"\"!!!\"",
+            "enragedesc":"Harken gets set to walking speed and enters her enraged state. While enraged, Harken gets the following effects:[br]+0.5 Runspeed[br1]+5 Swing damage[br1]+Repress and Agitation get replaced with other abilities, see below.[br]The Civilian that made the most Noise prior to Harken entering Enrage state will be Marked. The marked civilian will be highlighted to Harken for the entire duration of Enrage. Landing the Pummel ability on the Marked will deal additional damage.[br1]During Harken's enraged state, her noise meter will slowly drain to 0, and all Noise gain is temporarily disabled. Upon hitting 0 Noise, Harken will return to her Calm state.[br1]This ability requires 35 Noise to use.",
+
+            "pummel":"Pummel",
+            "pummelquote":"\"I SAID. BE. QUIET!\"",
+            "pummeldesc":"Harken reaches forward in an attempt to grab a Civilian in front of her.[br1]If this ability is missed, Harken will throw out a javelin projectile that reels in any Civilian it hits, stopping her in place for 1 second.[br]If Harken successfully grabs a Civilian, she will beat them senselessly over 3 seconds for a total of 40 damage, before swiftly throwing the Civilian forward and ragdolling them for 1 second.[br]Landing this ability on Marked will deal an additional 25 damage.[br1]Noise drain is fully paused during this ability.",
+
+            "lightpiercer":"Light Piercer",
+            "lightpiercerquote":"\"AT. ANY. COST.\"",
+            "lightpiercerdesc":"Harken stabs the floor with her javelin sending out 15 shockwaves of light that sequentially spawn in front of her. These shockwaves of light are 25% larger compared to Agitation.[br]These shockwaves deal 20 damage on initial contact, and 5 damage every 0.25s afterwards.[br1]Noise drain is fully paused during this ability.",
+            
+            "immolation":"Immolation",
+            "immolationquote":"\"A gentle reminder of what we're fighting for.\"",
+            "immolationdesc":"Harken slows down and impales herself with her javelin, dealing 100 self inflicted damage, and an additional 25 damage from [c:red]Bleed[/c].[br]This ability grants 60 Noise on usage.[br1]Noise drain is fully paused during this ability."
+        }
+    ]
+}

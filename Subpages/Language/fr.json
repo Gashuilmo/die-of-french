@@ -1,0 +1,566 @@
+{
+    "achievements": [
+        {
+            "id": "hungry",
+            "title": "J'ai Très Faim!",
+            "description": "Soignez 80PdV avec Hotdog.",
+            "quote": "\"Ta Gloutonnerie Me Rend malade.\""
+        },
+        {
+            "id": "golf",
+            "title": "Golf Violent",
+            "description": "Soyez le premier à activer Golf Time dans Golf.",
+            "quote": "\"Si vous faites trop mal à la balle de golf, vous allez au Banlands!\""
+        },
+        {
+            "id": "laundry",
+            "title": "Liste De Course",
+            "description": "Complétez une tâche en tant que Civil.",
+            "quote": "\"Je vais être ici pour un bon moment...\""
+        },
+        {
+            "id": "fan",
+            "title": "Je Suis Ton Plus Grand \"Fan\"",
+            "description": "Faites un gros calin à l'Aération du lobby.",
+            "quote": "\"Non, je suis un Grand Ventilo.\""
+        },
+        {
+            "id": "saver",
+            "title": "Sauveteur",
+            "description": "Soignez quelq'un en dessous de 15 PdV en tant qu'Infirmier.",
+            "quote": "\"MERCI DE M'AVOIR SAUVÉ!! J'AVAIS TELLEMENT SOIF!!\""
+        },
+        {
+            "id": "scholar",
+            "title": "Étudiant Studieux",
+            "description": "Passez plus de 10 minutes dans la Librarie.",
+            "quote": "\"L'Histoire ne peux pas être SI bonne que ça, si?\""
+        },
+        {
+            "id": "synergy",
+            "title": "Le Meilleur Des Deux Mondes",
+            "description": "Choisissez un deck Synergétique.",
+            "quote": "\"Enfin, de la VRAIE puissance\""
+        },
+        {
+            "id": "karma",
+            "title": "Le Karma Appelle",
+            "description": "Dancez devant le tueur et faites vous tuer par celui ci dans les 5 secondes qui suivent.",
+            "quote": "\"Tu l'as vu venir\""
+        },
+        {
+            "id": "shift",
+            "title": "Horaires Sans Fin",
+            "description": "Complétez une nuit dans le mini-jeu FNAF! (Aucun ennemi doit être à 0)",
+            "quote": "\"...\""
+        },
+        {
+            "id": "sight",
+            "title": "Vue à Couper",
+            "description": "Gagnez en tant que tueurs sur chaque map normale.",
+            "quote": "Tellement de vues, et si peu de temps!"
+        },
+        {
+            "id": "minutes",
+            "title": "Minutes Mesurées",
+            "description": "Atteignez 10 heures de temps de jeu.",
+            "quote": "\"Temps perdu(?)\""
+        },
+        {
+            "id": "bounce",
+            "title": "J'Suis Différent",
+            "description": "Gagnez un roud de One Bounce en tant que Civil.",
+            "quote": "\"J'aime mes chances!\""
+        },
+        {
+            "id": "death",
+            "title": "Ici Repose: Vous",
+            "description": "Mourez une fois.",
+            "quote": "\"Vous nous manquerez.\""
+        },
+        {
+            "id": "showtime",
+            "title": "Voler La Vedette",
+            "description": "Gagnez le Dernier Survivant 'Spectacle'. (de n'importe quel équipe.)",
+            "quote": "\"Ce spectacle est mien et rien qu'à moi!\""
+        },
+        {
+            "id": "double",
+            "title": "Quitte Ou Double",
+            "description": "Gagnez le Dernier Survivant 'Double Trouble' en tant que Civil.",
+            "quote": "\"Deux fois plus méchant, À moitié puissant.\""
+        },
+        {
+            "id": "seconds",
+            "title": "Secondes qui comptent",
+            "description": "Atteignez 1 heure de jeu.",
+            "quote": "\"Le temps pas vite.\""
+        },
+        {
+            "id": "careless",
+            "title": "Culpabilité du Survivant",
+            "description": "Gagnez le Dernier Survivant 'Inatentif' en tant que Civil.",
+            "quote": "\"Je... n'ai pas pu les sauver...\""
+        },
+        {
+            "id": "golfer",
+            "title": "Enthousiaste de Golf",
+            "description": "Gagnez le mode de jeu Golf.",
+            "quote": "\"Mourir De Mort ce n'était pas à propos de golf??? Pourquoi on rajoute des tueurs tout d'un coup?\""
+        },
+        {
+            "id": "sightbreaker",
+            "title": "Frayeur et Faim",
+            "description": "Gagnez le Dernier Survivant 'Perte Lux-Mineuse'. (de n'importe quelle équipe.)",
+            "quote": "\"La douce senteur de la Victoire.\""
+        },
+        {
+            "id": "shootdown",
+            "title": "Duel au coucher du soleil",
+            "description": "Gagnez le Dernier Survivant 'Vigilante Shootdown'. (de n'importe quelle équipe.)",
+            "quote": "\"Hors-La-Loi Attention À Vous!\""
+        },
+        {
+            "id": "big-spender",
+            "title": "Gros Dépenseur",
+            "description": "Dépensez 10,000 Points.",
+            "quote": "\"Blackiron aprécie votre soutien!\""
+        },
+        {
+            "id": "hot-stuff",
+            "title": "Patate Chaude",
+            "description": "Gagnez le mode de jeu Patate Frie.",
+            "quote": "\"Phiou, c'était chaud!\""
+        },
+        {
+            "id": "bloodshed",
+            "title": "Bain De Sang",
+            "description": "Obtenez 1000 victimes au total.",
+            "quote": "\"Encore combien sont nécéssaire pour satisfaire ta faim?\""
+        },
+        {
+            "id": "rebirth",
+            "title": "Renouveau",
+            "description": "Renaissez pour la première fois dans le mini-jeu Sauce Clicker.",
+            "quote": "\"...\""
+        },
+        {
+            "id": "dienation",
+            "title": "La Plus Grande Menace Dans La Pièce",
+            "description": "Soyez le dernier Tueur debout à la fin d'un round de Dienation.",
+            "quote": "\"N'y a t'il personne qui puisse me faire face? C'est Décevant.\""
+        },
+        {
+            "id": "10kill",
+            "title": "Début Modeste",
+            "description": "Obtenez 10 victimes au total",
+            "quote": "\"Tu pars dans une bonne direction!\""
+        },
+        {
+            "id": "1kill",
+            "title": "Le Premier De Plusieurs",
+            "description": "Obtenez votre première victime.",
+            "quote": "\"Ta première victime!\""
+        },
+        {
+            "id": "lilspender",
+            "title": "P'tit Dépenseur",
+            "description": "Dépensez 1000 Points.",
+            "quote": "\"Un peu ici, un peu pars là!\""
+        },
+        {
+            "id": "standing",
+            "title": "Toujours Debout",
+            "description": "Gagnez en tant que civil sur toutes les cartes normale.",
+            "quote": "\"Encore 160934,4 kilomètre à faire...\""
+        },
+        {
+            "id": "rich-mf",
+            "title": "Porte-Monnaie Sur Pate",
+            "description": "Ayez 10,000 Points à la fois.",
+            "quote": "\"Ce qui équivaut à peu près à 2 Tix!\""
+        },
+        {
+            "id": "let-die",
+            "title": "Vit et laisse mourir.",
+            "description": "Meurs 50 fois.",
+            "quote": "\"Je deviens Insensible à cette sensation.\""
+        },
+        {
+            "id": "100kill",
+            "title": "Encore un de plus au compteur",
+            "description": "Obtenez 100 victimes au total",
+            "quote": "\"99 et un de plus pour faire bonne mesures.\""
+        },
+        {
+            "id": "harken-mastery",
+            "title": "Recollection Rayonnante",
+            "description": "Obtenez 250 victimes en tant que Oir.",
+            "quote": "\"...En paix.\""
+        },
+        {
+            "id": "killdroid-mastery",
+            "title": "[MISSION_RÉUSSIE]",
+            "description": "Obtenez 250 victimes en tant que Killdroïde.",
+            "quote": "\"DIRECTIVE COMPLÉTÉ: CIBLES RÉDUITES EN MORCEAUX AVEC SUCCÈS.\""
+        },
+        {
+            "id": "miséricorde",
+            "title": "Les Misérables",
+            "description": "Obtenez 250 victimes en tant que Artful.",
+            "quote": "\"\""
+        },
+        {
+            "id": "badware-mastery",
+            "title": "[PURGE_SYSTÈME]",
+            "description": "Obtenez 250 victimes en tant que Mal://Ware.",
+            "quote": "\"[Vos fichiers ont été encryptés!]\""
+        },
+        {
+            "id": "pursuer-mastery",
+            "title": "Le Frisson De La Chasse",
+            "description": "Atteignez 250 victime en tant que Poursuivant.",
+            "quote": "\"Ahh... Viande Fraiche..\""
+        },
+        {
+            "id": "two-birds",
+            "title": "2 Oiseaux, Une Pierre!",
+            "description": "Obtenez un double meurtre.",
+            "quote": "\"But imagine the birds are Civilian, and the stone is a Rocket.\""
+        },
+        {
+            "id": "nah-ah",
+            "title": "Je N'ai Plus Peur De Toi Maintenant!",
+            "description": "Étourdissez le tueur 7 fois en une seule partie.",
+            "quote": "\"Allez ! Viens en chercher !!\""
+        },
+        {
+            "id": "rebirth2",
+            "title": "Né, À nouveau?",
+            "description": "Renaissez pour la 5ème fois dans le mini-jeu Sauce Clicker.",
+            "quote": "\"...\""
+        },
+        {
+            "id": "lebron",
+            "title": "3-POINTS",
+            "description": "Touchez 3 personne en une seule fois ou tuez quelqu'un avec la capacité Propulsion de Killdroïde.",
+            "quote": "\"Je suis quasiment sur que les jetpacks ne sont pas autorisés pendant des matchs standard de basketball...\""
+        },
+        {
+            "id": "slaughterhouse",
+            "title": "Abattoir",
+            "description": "Tuer tout le monde dans un lobby plein en tant que tueur.",
+            "quote": "\"Ne laisse personne en vie sur ton chemin.\""
+        },
+        {
+            "id": "help-wanted",
+            "title": "Help Wanted",
+            "description": "Battez le mode 4/25 dans le mini-jeu FNAF.",
+            "quote": "\"...\""
+        },
+        {
+            "id": "nightmare",
+            "title": "Cauchemar Lucide",
+            "description": "Bloquer Malfaisant Effrayant.",
+            "quote": "\"Je n'y REVIENS pas de ce que je viens de faire!\""
+        },
+        {
+            "id": "spec-tater",
+            "title": "Patate Crue/Patate Froide",
+            "description": "Gagnez le mode de jeu FryBomber sans vous faire touché une seule fois.",
+            "quote": "\"Hé ne me regarde pas! Je n'ai rien fait du tout!\""
+        },
+        {
+            "id": "combat-medic",
+            "title": "Secouriste Militaire",
+            "description": "Soignez vos coéquipiers 30 fois en une seule partie.",
+            "quote": "\"\""
+        },
+        {
+            "id": "mulligan",
+            "title": "Mulligan",
+            "description": "Réussisez à compléter une salle dans Golf sans utiliser la capacité 'Coup'.",
+            "quote": "\"Ça c'est un putt concédé... et ainsi que tous ceux précédent.\""
+        },
+        {
+            "id": "scratch",
+            "title": "Tis But A Scratch",
+            "description": "Win as a civilian without taking any damage at all.",
+            "quote": "\"Huh? Did something happen?\""
+        },
+        {
+            "id": "dod-any%",
+            "title": "Die Of Death Any% WR",
+            "description": "Mourez dans les 20 prmières secondes d'une partie.",
+            "quote": "\"Nickel! Nouveau Record Personnel!!\""
+        },
+        {
+            "id": "deep-dive",
+            "title": "Plongeon Profond",
+            "description": "Gagnez une partie sur Baseplate avec moins de 20 PdV et 30 d'Oxygène restant.",
+            "quote": "\"Peut-être tu devrais rester en dehors du Grand Bain la prochaine fois.\""
+        },
+        {
+            "id": "1hp",
+            "title": "Au Bord De La Mort",
+            "description": "Gagnez avec exactement 1PdV restant.",
+            "quote": "\"Je ne sais même pas commen j'en suis arriver là et j'ai très peur.\""
+        },
+        {
+            "id": "youtube",
+            "title": "Les Youtubers DoD Être Comme:",
+            "description": "Serverwipe a lobby without ever using your M1 as killer. (5 player server required.)",
+            "quote": "\"Regarde maman! Je vais pouvoir faire un TCG!!\""
+        },
+        {
+            "id": "for-those",
+            "title": "Pour Ceux Que L'on A Perdu Sur Le Chemin",
+            "description": "Gagnez en tant que Dernier Survivant dans un serveur rempli au maximum de Civil.",
+            "quote": "\"Pour vous tous. Je l'ai fais.\""
+        },
+        {
+            "id": "the-best-def",
+            "title": "La Meilleure Défense...",
+            "description": "Bloquez 6 fois en une seule partie.",
+            "quote": "\"C'est un bon Casque!\""
+        },
+        {
+            "id": "meet-the-sniper",
+            "title": "À La Rencontre Du Sniper",
+            "description": "Touchez une cible avec un projectile à plus de 125 tenons de distance.",
+            "quote": "\"C'est un bon boulot.\""
+        },
+        {
+            "id": "albatross",
+            "title": "Albatross",
+            "description": "Complete a Golf room in under 10 seconds starting when the ball is spawned.",
+            "quote": "Not actually an Albatross, but why are so many things in Golf named after birds?"
+        },
+        {
+            "id": "trophy",
+            "title": "Trophé De Participation",
+            "description": "Gagnez sans utiliser aucune capacité en tant que civil.",
+            "quote": "\"Vraiment... je ne pense pas que le mot 'essayé' soit un bon mot pour te décrire.\""
+        },
+        {
+            "id": "luck",
+            "title": "As De La Chance",
+            "description": "Réusssisez à relancer un total de 5 fois.",
+            "quote": "\"Encore un tour de roue ne ferait pas de mal.\""
+        },
+        {
+            "id": "give-'em-hell",
+            "title": "Give Em' Hell!",
+            "description": "Buff 5 teammates with Bugle at once.",
+            "quote": "\"Last one alive, lock the door!\""
+        },
+        {
+            "id": "mann-vs.-machine",
+            "title": "Mann Vs Machine",
+            "description": "As Badware, have 4 computers active at once.",
+            "quote": "\"B)\""
+        },
+        {
+            "id": "comeback",
+            "title": "N'appelle Pas Ça Un Comeback",
+            "description": "Bloquez une attaque qui aurait du vous tuer.",
+            "quote": "\"Cela impliquerait que je perdait!\""
+        },
+        {
+            "id": "waterbaby",
+            "title": "Bébé Mouillé",
+            "description": "Mère, assèche la carcasse.",
+            "quote": "\"...\""
+        },
+        {
+            "id": "spine",
+            "title": "Ma collonne vertébrale me fait mal chaque nuit",
+            "description": "Le caramel bleu empli mon esprit de paix.",
+            "quote": "\"Thank you.\""
+        },
+        {
+            "id": "kaboom",
+            "title": "KABOOOM!",
+            "description": "J'ai encore un tour dans mon sac!",
+            "quote": "\"À couper le souffle.\""
+        }
+    ],
+    "killers": [
+        {
+            "id": "pursuer",
+            "name": "Le Poursuivant",
+            "description":"Description",
+            "descriptiontext":"\"Un dangereux Prédateur au sommet de la Chaîne Alimentaire d’une origine inconnue,sa vitesse et capacité de chasse sont incomparables. Grâce à sa capacité à devenir totalement invisible, il est capable de se rapprocher de proie insouciante avant de vite se débarrasser d’elles sans traces. Du moment où tu entends hurlement au loin, [c:red]il est déjà trop tard[/c].\"",
+            "stats":"Statistiques",
+            "stamina":"StaminaMax: 110",
+            "walkspeed":"VitesseDeMarche: 8.75",
+            "sprintspeed":"VitesseDeCourse: 27.5",
+            "health":"Point De Vie: 900",
+            "playstyle":"Style De Jeu: Ciblage",
+            "passive":"Passif",
+            "passivesmall":"Pas de passif...",
+            "abilities":"Capacités",
+
+            "swing":"Tranche",
+            "swingquote":"\"Ses griffes étaient comme des rasoirs, elles ont déchiré [c:red][CLASSIFIER][/c] comme si c’était du papier.\"",
+            "swingdesc":"Le Poursuivant tranche rapidement devant lui avec une de ses griffes après 0.25 seconde, infligeant 20 dégâts.",
+
+            "cleave":"Fendre",
+            "cleavequote":"\"Aussitôt ses mains touchaient cette épée, il en était comme s’il l’avait depuis une éternité...\"",
+            "cleavedesc":"Le Poursuivant reçoit un boost de vitesse et dégaine rapidement son épée, fendant quiconque à le malheur d’être à sa portée.[br]Lorsqu’il touche un Civil, ils se voient infligés 20 dégâts et puis 10 dégâts supplémentaires de [c:red]Saignement[/c] sur 5 secondes. Le Civil est révélé au Poursuivant pour toute la durée de [c:red]Saignement[/c]. L’effet de [c:red]Saignement[/c] n’est pas fatal et laisse la victime à 1 PV.[br]Lorsque l’attaque est finie, le Poursuivant rengaine son épée sur son dos et reçoit [c:orange]Lenteur[/c] pendant 1.5 secondes, le laissant vulnérable à des attaques.[br]Cette attaque peut toucher plusieurs cibles.",
+
+            "howl":"Hurlement",
+            "howlquote":"\"Ce cri perçant... personne n’osait le contester.\"",
+            "howldesc":"Le Poursuivant s’arrête pendant une seconde et hurle, lâchant une onde de choc devant lui.[br]Cet onde de choc applique [c:orange]Lenteur[/c] à quiconque y touche et les révèle à vous pendant 4 secondes, de plus, cela donne un petit boost de vitesse au Poursuivant.[br]L’onde de choc commence en tant qu’un petit et faible projectile. La durée et puissance de [c:orange]Lenteur[/c] augmente avec la distance parcourue par le projectile.",
+
+            "stalk":"Voilage/Dévoilage",
+            "stalkquote":"\"Je m’en souviens comme hier... la sensation de respiration sur mon cou... et pourtant je ne pouvais le voir.\"",
+            "stalkdesc":"Le Poursuivant s'arrête pendant 2 secondes et fait un truc horriblement bizarre, lui donnant une invisibilité complète.[br]Si le Poursuivant utilise cette capacité dans un rayon de 25 Tenons autour d’un Civil, il gagne un bonus de vitesse de 75%. Pendant que cette capacité est active, le Poursuivant obtient:[p:tab]- Reçoit un bonus de vitesse.[br1]- Reçoit la possibilité de voir tous les Civils globalement.[br1]- Tranche est bloquée et inutilisable.[br1]- Fendre et Hurlement sont remplacé par de nouvelles capacités (à voir ci-dessous)[br1]- La Régénération de Stamina est réduite de 50%[/p]L’invisibilité se finit naturellement au bout de 15 secondes, Le Poursuivant peut néanmoins activer la capacité pour la finir plus tôt. Une fois que la période d’invisibilité est finie, le Poursuivant est lourdement ralenti et ne peut pas courir pendant 1 seconde. ",
+
+            "lunge":"Élan",
+            "lungequote":"\"Nombreux sont ceux qui ont entendu le récit de comment le Poursuivant est sans défense lorsqu'il est invisible.\"",
+            "lungedesc":"Le Poursuivant se dévoile et s'arrête sur place pendant 0.25 secondes et se lance vers l’avant av, frappant quiconque devant lui. Tout Civils assez malheureux pour se faire toucher se voient infligés 20 dégâts, et puis 10 supplémentaires par [c:red]Saignement.[/c]",
+
+            "chomp":"Morsure",
+            "chompquote":"\"Ses victimes étaient trouvées déchiquetées et battues sans merci, cependant il y avait peu de traces de morsures sur ceux-ci.\"",
+            "chompdesc":"Le Poursuivant se dévoile rapidement et s’arrête pendant 0.4 secondes, avant de \"mordre\" devant lui. Tout Civils touché par cette attaque prend 10 dégâts et puis 10 supplémentaires par [c:red]Saignement[/c]  sur la durée.[br]L’effet de [c:red]Saignement[/c] augmentera de 5 points par Civil touché par cette capacité."
+        },
+        {
+            "id": "artful",
+            "name": "Artful",
+            "description":"Description",
+            "descriptiontext":"\"[c:artfulblue]Artful[/c] est un magicien français profondément lié à la magie depuis sa naissance, et ÉTAIT une célébrité populaire avant son… [c:italic]\"accident\"[/c].[br1] Après qu'une de ses représentations se soit particulièrement mal passée, Artful laissant ses émotions prendre le dessus s'est résigné à \"décharger ses frustrations sur tout son public\". Il vit désormais comme un criminel en fuite, trop effrayé pour se rendre et assumer les conséquences de ses actes.\"",
+            "stats":"Statistiques",
+            "stamina":"StaminaMax: 100",
+            "walkspeed":"VitesseDeMarche: 9.5",
+            "sprintspeed":"VitesseDeCourse: 26.75",
+            "health":"Point De Vie: 750 ",
+            "playstyle":"Style De Jeu: Piégeur",
+            "passive":"Passif",
+            "passivesmall":"[c:hawkesblue]INTUITION DU MAGICIEN[/c] - \"Un magicien ne révèle jamais ses tours!.\" - Artful[br]Les pièges d’Artful lui sont révélés tout le temps. Cela inclus:[br1]-Implément[br1]-Droit D’Artiste[br1]-Marionnette[br1]De plus, la quantité de pièges posés lui est donnée à tout temps.",
+            "abilities":"Capacités",
+
+            "swing":"Coup de Bâton",
+            "swingquote":"\"Avec un coup de mon bâton - je ramène vos rêves les plus fous - devant vous !\"",
+            "swingdesc":"Artful brandit sa baguette vers l’avant pendant 0.25 secondes, infligeant 20 dégâts à quiconque il frappe.",
+
+            "implement":"Implément",
+            "implementquote":"\"La seule chose qui vous empêche de réaliser vos rêves sont vos stops mentaux que vous avez créer!\"",
+            "implementdesc":"Après s'être préparé 1 seconde, Artful crée un mur qui sort du sol à sa position. Le mur mesure 10 tenons de largeur et 5 tenons de hauteur.[br1 ]Le mur à 100 PdV et perd 1 PdV au fil du temps. Les Civils peuvent attaquer le mur pour accélérer sa destruction. Il ne peut y avoir que 5 mur actifs à la fois, essayer d’en placer un nouveau remplacera le mur le plus vieux.[br]Si Artful passe à travers son mur, il sera temporairement ouvert à n’importe qui voudra y passer pendant 2 secondes.",
+
+            "copywrite":"Droit D’Artiste",
+            "copywritequote":"\"Vous aimez ce que vous entendez? Toutes ces musiques composées par votre Cher! Vous pouvez les acheter dans la Boutique souvenir!\"",
+            "copywritedesc":"Après s’être préparé pendant 2 secondes, Artful crée une Boîte à Musique à sa position.[br1]Cette Boîte à Musique à une portée de 50 tenons, et si un Civil entre dans sa portée, ils recevront un lourd effet de ralentissement et se verront révélés à Artful, une personne à la fois.[br]La Boîte à Musique PEUT être détruite, mais ses points de vie ne baissent pas automatiquement.[br]Il ne peut y avoir que 2 Boîte à Musique active à la fois.",
+
+            "repurpose":"Recyclage",
+            "repurposequote":"\"Qui a dit que tu ne pas apprendre de nouveaux tours à un vieux magicien ?\"",
+            "repurposedesc":"Artful ralenti pendant 0.5 secondes brièvement, et se tend vers l’avant, \"Empochant\" tout ce qu’il touche.[br]Empocher un Mur met Implément sur un TdR de 5 secondes, et permet à Artful de lancer un projectile infligeant 15 dégâts. Si un Civil est touché par le projectile à plus de 15 tenons, ils ragdoll pendant 1 seconde. Le projectile ne peut pas passer à travers les murs et à un un petit rayon lorsqu'il touche quelque chose.[br]Empocher une Boîte à Musique met Droit D’Artiste sur un TdR de 10 secondes, et permet à Artful de profiter d’un bonus de vitesse en l’utilisant. La Boîte à Musique flotte au-dessus de lui, et s’arrête pendant 2 secondes, et lui confère un bonus de vitesse notable pendant 5 secondes, tout en révélant tous les Civils de manière globale.[br]\"Empocher\" un Civil permet met Recyclage sur un TdR de 15 secondes, et permet à Artful de créer une Marionnette. La Marionnette apparaît pendant une courte animation, avant de s’activer et de chasser le Civil le plus proche, ne s'arrêtant jamais pour atteindre sa cible. Similairement au Mur, la Marionnette perd des points de vie progressivement sur la durée, et périt lorsqu'il n'y a plus de points de vie, elle peut aussi être attaquée pour être détruite plus tôt.[br1]Si la Marionnette arrive à s’approcher de quelqu’un et l'attaquer, elle inflige 15 points de dégâts et se ralentit pendant 1.5 secondes.[br1]Essayer de Recycler une Marionnette la détruit, et donne les même propriété qu’un mur empoché."
+
+        },
+        {
+            "id": "badware",
+            "name": "Mal://Ware",
+            "description":"Description",
+            "descriptiontext":"\"[c:badwaregreen]Mal://Ware[/c] est l’une des nombreuses Entitées venues de la [c:toolboxblue]Boîte à Outil[/c], et la seule raison de la brèche causé à la [c:tasfblue]T.A.S.F[/c].[br1]Tandis que les détails de sa création ne sont pas connus, il possède la capacité anormale d'infecter toutes les machines autour de lui, gagnant la capacité de prendre un contrôle total de celles-ci, étendant son pouvoir et influence.\"",
+            "stats":"Statistiques",
+            "stamina":"StaminaMax: 110",
+            "walkspeed":"VitesseDeMarche: 6.75",
+            "sprintspeed":"VitesseDeCourse: 26.75",
+            "health":"Point De Vie: 1010 ",
+            "playstyle":"Style De Jeu: Boule de neige",
+            "passive":"Passif",
+            "passivesmall":"Pas de passif...",
+            "abilities":"Capacités",
+
+            "swing":"Coup",
+            "swingquote":"\"[ÇA S'APPELLE DU MATÉRIEL POUR UNE RAISON]\"",
+            "swingdesc":"Mal://Ware frappe devant lui avec l’un de ses bras mécaniques pendant 0.25 secondes, infligeant 20 dégâts.[br]Si le coup réussit, alors cette capacité ajoute 10% de progression sur tous les PC placés.",
+
+            "firewall":"Contournement",
+            "firewallquote":"\"[SUPER ALGORITHME D'ENCRYPTION, IL EST FAIT EN QUOI, LUA?]\"",
+            "firewalldesc":"Mal://Ware s'arrête sur place pendant 1 seconde et crée un ordinateur à sa position, lorsque Mal://Ware se trouve dans une portée de 50 tenons d’un PC, il gagne les effets suivants:[br]+2,25 de Vitesse de Course[br1] +1,15 Vitesse de Marche[br1]+Ruée  [2èmeCapacité] deviens plus puissant[br]Mal://Ware ne peut avoir que 4 PCs à la fois. S’il essaye d’en placer un nouveau alors il supprimera le plus vieux PC et en place un nouveau à sa position.[br]Les PCs commencent à 100% de progression, mais se vident lentement jusqu’à 0%. Lorsqu’un PC arrive à 0%, il s’autodétruit et se désactive. Mal://Ware est alerté lorsqu’un PC est détruit.[br]Pour faire en sorte que vos PCs continuent de tourner, vous devez vous baser sur vos autres capacités pour permettre de prolonger leur durée de vie.[br]Si un Civil se trouve dans la portée d’un PC pendant 3 secondes ils sont révélés à Mal://Ware.[br1]Mal://Ware peut recevoir plusieurs bonus s'il est affecté par plusieurs ordinateurs.",
+
+            "bolt":"Ruée",
+            "boltquote":"\"[TU NE PEUX PAS M'ARRÊTER, TON NETCODE ME REND PLUS FORT!]\"",
+            "boltdesc":"Mal://Ware s'arrête sur place pendant une seconde avant de se ruée vers l’avant.[br1]Pendant une Ruée, Mal://Ware perd 10 PdS chaque seconde. Atteindre 0 de PdS ne terminera PAS la Ruée plus tôt.[br1]Si Mal://Ware ne touche aucune cible en 4 secondes pendant la Ruée, ou se crash dans un mur ou un objet, la Ruée se terminera et Mal://Ware se tiendra immobile sur place pendant 2 secondes.[br]Touché un Civil avec Ruée normalement inflige 20 dégâts, et arrête Mal://Ware pendant 2 secondes.[br]Si Mal://Ware entre en portée d’un PC lors d’une ruée, celle-ci ajoutera 3 secondes de plus à sa durée.[br1]Touché un Civil lors d’une Ruée proche d’un PC résulte en Mal://Ware attrapant un Civil avant de le lancer infligeant 25 dégâts.[br]Si un Civil se heurte à un ordinateur lorsqu'il est projeté, cela détruira le PC, et inflige 10 dégâts de [c:red]Saignement[/c], et ajoute 40% de progression aux PCs placés.",
+
+            "rift":"Faille",
+            "riftquote":"\"[JE SUIS COMME CES POP-UPS QUE TU NE PEUX PAS SUPPRIMER]\"",
+            "riftdesc":"Mal://Ware s'arrête et adopte une posture, obstruant l’écran de tous les Civils avec un message provocateur.[br]Dans cette posture:[br1] Mal://Ware ne peut pas courir et bouge incroyablement lentement.[br1]Tous les PCs auront une icône sur eux, Cliquer sur l’une de ses icônes fait en sorte que Mal://Ware performe une petite animation avant de se Téléporter sur l’ordinateur choisi, l’explosant accidentellement et donnant un court bonus de vitesse. Se Téléporter à un PC ajoute 20% de progression à tous les PCs.[br1]Si un Civil est à proximité d’un PC lors de l’explosion de Faille, ils prennent 10 dégâts et subissent un petit ragdoll.[br]Il faut au moins 1 ordinateur actif pour pouvoir utiliser cette capacitée.[br1]Il est possible de réactiver la capacité pour l’annuler au coût de mettre la capacité à un TdR de 10 secondes."
+        },
+        {
+            "id": "killdroid",
+            "name": "Killdroïde",
+            "description":"Description",
+            "descriptiontext":"\"[c:killdroidred]Killdroïde[/c] est un prototype de garde du corps  robotique expérimental prévu pour être produit en masse par le Gouvernement pour observer et protéger les Civils.[br1]Cependant, pendant une de leur simulation, il commença à vriller et devint rebelle, tournant sens dessus dessous le terrain de test où il y était, et s’échappa dans le monde. Le Gouvernement  ne connaît toujours pas la cause de ce dysfonctionnement, et tous les efforts de production en masse ont été mis au repos jusqu’à nouvel ordre.\"",
+            "stats":"Statistiques",
+            "stamina":"StaminaMax: 110",
+            "walkspeed":"VitesseDeMarche: 8",
+            "sprintspeed":"VitesseDeCourse: 27",
+            "health":"Point De Vie: 900",
+            "playstyle":"Style De Jeu: Zoneur",
+            "passive":"Passif",
+            "passivesmall":"[c:red]IGNORANCE[/c] - \"TRAITEMENT DE L’ORDRE DONNÉ... ORDRE ANNULÉ.\"[br]Killdroïde à l’unique propriété de traverser toutes les barrières de toutes les cartes, aussi bien que mal, qu’il utilise à son avantage.[br]Killdroïde est capable de prendre des chemins et raccourcis que nul autres tueurs peut prendre.",
+            "abilities":"Capacités",
+
+            "eject":"Éjection",
+            "ejectquote":"\"Assurer que les modules des roquettes fonctionnent, calculer correctement tous les angles variant, et FEU\"",
+            "ejectdesc":"Killdroïde ralentit énormément, préparant ses lances-roquettes avant de tirer une roquette devant lui.[br1]La roquette explose dès lorsqu'elle fait contact avec n’importe quoi, infligeant 25 dégâts dans une zone autour du point d'impact.[br]L'explosion de la roquette peut traverser les murs.[br]Les roquettes ne sont pas affectées par la gravité et se dirigent toujours dans la direction que Killdroïde regarde.",
+
+            "flight":"Vol",
+            "flightquote":"\"Calibration des Propulseurs, Changement du centre de gravité pour l'aérodynamisme, et nous DÉCOLLONS\"",
+            "flightdesc":"Killdroïde s'arrête sur place, lançant un son d’alerte, avant de se propulser dans les airs, obtenant un réticule constamment visant le joueur le plus proche.[br]Pendant que Killdroïde est dans les airs, Éjection visera le joueur le plus proche, lui donnant ainsi une “faible aide à la visée”.[br]Lorsqu'il touche un mur, ou descendant doucement au sol après un certain temps, Killdroïde “Atterrit en catastrophe” par la faute de son Jetpack fautif, l'empêchant brièvement de bouger , mais étant toujours capable d'attaquer avec ses capacités.[br]Utiliser Propulsion lorsque Vol est actif termine la capacité plus tôt, causant Killdoïde à atterrir en catastrophe directement sous lui-même, infligeant 25 dégâts et ragdoll un court instant.",
+
+            "killbot":"Déploiement",
+            "killbotquote":"\"ACCÈS À LA BASE DE DONNÉES À DISTANCE, ENVOI D'UN SIGNAL SOS. DEMANDE DE RENFORTS.\"",
+            "killbotdesc":"Killdroïde sort un Talkie-walkie, et demande des renforts.[br]Un Killbot apparaît à sa position, prêt à attaquer tout Civil à portée.[br]Si un Civil entre en portée d’un Killbot, celui-ci tirera des roquettes vers eux, additionnellement révélant le Civil à Killdroïde.[br1]Vous ne pouvez avoir que 4 Killbot actif à la fois, et essayer d’en placer un nouveau à capacité maximum remplace tout simplement le plus ancien Killbot.[br]Les Killbots ont 30 PdV total, et perdent -1 PdV toutes les 3 secondes. Les Killbots ne peuvent être endommagés par tous les moyens pendant 3 secondes après avoir été placés. Dès qu’un Killbot atteint 0 PdV, il se détruira lui-même.",
+
+            "propel":"Propulsion",
+            "propelquote":"\"RÉACHEMINEMENT DU POIDS SUPPLÉMENTAIRES, NEUTRALISATION DE LA CIBLE\"",
+            "propeldesc":"Killdroïde s'arrête sur place pendant une seconde avant de bondir dans les airs, préparant un gros atterrissage.[br1] Lorsque que Killdroïde atterrit en catastrophe, ils infligent 25 dégâts à ceux autour de lui.[br]Utiliser cette capacité lorsque Vol est actif termine celle-ci plus tôt et cause Killdroïde à atterrir en urgence/catastrophe/crashland directement en dessous de lui, faisant les mêmes effets qu’une utilisation normale de Propulsion."
+        },
+        {
+            "id": "harken",
+            "name": "Oïr",
+            "description":"Description",
+            "descriptiontext":"\"[c:yellow]Oïr[/c] est une Construction originaire d'une Dimension Différente, où le bruit est signe de faiblesse et de vulnérabilité. Après que les Scientifiques du Gouvernement ont créé un Portail reliant deux univers, celui-ci a attiré l'attention d’Oïr, qui est passée de l'autre côté et est entrée dans une frénésie maniaque, massacrant les Scientifiques et quittant sa dimension d'origine. Elle passe ses journées à voyager dans notre monde en quête de silence, tuant tous les Civils qui ont malencontreusement attiré l'attention d'Oïr.\"",
+            "stats":"Statistiques",
+            "stamina":"StaminaMax: 114",
+            "walkspeed":"VitesseDeMarche: 9",
+            "sprintspeed":"VitesseDeCourse: 27.75",
+            "health":"Point De Vie: 400 ",
+            "playstyle":"Style De Jeu: Ressource/Zoneur",
+            "passive":"Passif",
+            "passivesmall":"[c:yellow]ÉCHO LOCATION[/c] - \"Nous devons être prudents, nous ne voulons pas attirer l’attention sur nous.\" - Un des Scientifiques de l'Équipe d’Exploration.[br]Oïr, à tout temps, à une Jauge/Barre de Bruit visible à tous les joueurs tout le temps. Le Bruit commence à 0 naturellement.[br1]Le Bruit s’obtient par l’utilisation de ses propres capacités, et de n’importe quel Bruit venant d’un Civil, est multiplié s’il est sous l’effet de statut “Bruyant”.[br1]Toutes les capacités de Oïr appliquent “Bruyant” dans une certaine mesure sans son état Calme.[br1]Le Bruit octroyé à Oïr est échelonner avec le nombre de Civils en vie. [br]Bruit est la ressource principale de Oïr pour sa 4eme capacités, \"Rage\"",
+            "abilities":"Capacités",
+
+            "swing":"Coup",
+            "swingquote":"\"Tu ne peux avoir peur de te salir les mains de temps en temps\"",
+            "swingdesc":"Oïr frappe avec son javelot devant elle après une charge de 0.25 secondes, infligeant 15 dégâts.[br1]Applique 1.1x de Bruyant pendant 10 secondes (cumulables) à quiconque se fait toucher, et donne 5 Bruit à Oïr.[br]Régénère 10 PdV à Oïr si elle parvient à toucher quelqu'un lorsque Enragé.",
+
+            "repress":"Répression",
+            "repressquote":"\"Restez calme, et ne faites pas de bruit\"",
+            "repressdesc":"Oïr se voit donner 5 Bruit, commence à marcher et manifeste une “Zone de Bruit” autour d’elle. Cette zone suit constamment Oïr, mais avec un délai.[br]N’importe quel Civil qui entre dans la zone se voit appliqué avec 1.1x de Bruit pendant 10 secondes (cumulable). Le multiplicateur de Bruyant continuera à augmenter pour chaque seconde un Civil est dans la zone. De plus, pour chaque Civil dans la zone, Oïr régénère 3 Pdv par seconde.[br]La zone dure 15 secondes avant de disparaître. ",
+
+            "agitation":"Agitation",
+            "agitationquote":"\"Comme père me l’as apprise\"",
+            "agitationdesc":"Oïr se voit donner 5 Bruit, s'arrête sur place pendant 2 secondes, et perce le sol avec son javelot envoyant 10 onde de choc de lumière qui apparaissent séquentiellement devant elle.[br]Ces ondes de choc infligent 15 dégâts par au premier contact, puis 5 dégâts toutes les 0.25 secondes secondes par la suite.[br]Infligeant de plus [c:orange]Lenteur 2[/c] pendant 2 secondes, 1.1x de Bruyant pendant 10 secondes, et donne 5 de Bruit à Oïr.",
+
+            "enrage":"RAGE",
+            "enragequote":"\"!!!\"",
+            "enragedesc":"Oïr commence à marcher puis entre dans son état enragé. Tant qu’elle est enragé, Oïr obtient les effets suivant : [br]+0.5 Vitesse de Course[br1]+5 Dégâts pour Coup[br1]+Répression et Agitation se font remplacer, voir ci-dessous.[br]Le Civil ayant fait/produit le plus de Bruit avant que Oïr entre dans l’état Enragé se voit Marqué. Le Civil marqué sera révélé à Oïr pour la durée totale de Rage. Toucher le Civil Marqué avec Martelage infligera plus de dégâts.[br]Pendant l’état enragé de Oïr, sa Barre de Bruit drainera lentement vers 0, et tous les gains de Bruit sont temporairement bloqués. Lorsque 0 Bruit sont atteint, Oïr retourne dans son état Calme.[br1]Cette capacité requiert 35 de Bruit pour activer.",
+
+            "pummel":"Martelage",
+            "pummelquote":"\"J'AI. DIT. SILENCE!\"",
+            "pummeldesc":"Oïr se tend vers l’avant essayant d’attraper un Civil devant elle.[br]Si cette capacité rate, Oïr lance un projectile en forme de javelot qui ramène n’importe quel Civil qui est touché, s'arrêtant pendant 1 seconde.[br]Si Oïr réussit à attraper un Civil, elle le rue de coups sauvagement sur 3 secondes pour un total de 40 dégâts, avant de jeter le Civil rapidement devant elle et le faisant ragdoll pendant 1 seconde.[br]Toucher cette capacité sur un Civil Marqué la fera infliger 25 dégâts bonus.[br]Le drainage de Bruit est mis en pause pour la durée de la capacité.",
+
+            "lightpiercer":"Perce Lumière",
+            "lightpiercerquote":"\"À. N'IMPORTE. QUEL. COÛT.\"",
+            "lightpiercerdesc":"Oïr plante le sol avec son javelot envoyant 15 ondes de choc qui apparaissent séquentiellement devant elle. Ces ondes de choc de lumière sont 25% plus large comparées à celle de Agitation. [br1]Ces ondes de choc inflige 20 dégâts au premier contact puis, 5 dégâts toutes les 0.25 secondes par la suite.[br]Le drainage de Bruit est mis en pause pour la durée de la capacité.",
+
+            "immolate":"Immolation",
+            "immolatequote":"\"Un doux rappel pour ce qu'on se bat pour.\"",
+            "immolatedesc":"Oïr ralenti avant de s'empaler avec son javelot, s’infligeant 100 dégâts, et 25 dégâts de [c:red]Saignement[/c] additionnel.[br]Cette capacité donne 60 Bruit à son activation.[br1]Le drainage de Bruit est mis en pause pour la durée de la capacité."
+        }
+    ]
+}

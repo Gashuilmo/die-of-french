@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Die of French</title>
+    <link rel="stylesheet" href="/Css/DoDKillerShop.css" />
+
+</head>
+
+<body>
+    <audio id="main-theme" src="/Music/DieOfDeathShopTheme.ogg" autoplay loop></audio>
+
+    <div class="music-mute">
+        <button id="harken">
+            <img src="/MusicMute/HarkenAudioSettingIconStill1.png" id="harken-icon">
+        </button>
+    </div>
+
+    <div class="language-selector">
+        <select id="language-select">
+            <option value="fr" selected>Français</option>
+            <option value="en">English</option>
+        </select>
+
+        <div class="TextBoxSHOP">
+            <div class="Text">
+                <p style="justify-content: left;">Killers</p>
+            </div>
+        </div>
+
+        <div class="TextBox">
+            <div class="KillerBox">
+
+                <div class="Killer" data-killer-id="pursuer">
+                    <div style="position: relative; width: 100%;">
+                        <img src="/Killers/PursuerRenderV5.webp">
+                        <p class="name"></p>
+                    </div>
+                    <div class="redirect">
+                        <button class="killer-btn" data-category="infos" onclick="location.href='Pursuer/DieOfDeathPursuerInfo.html'">Infos</button>
+                        <button class="killer-btn" data-category="skins"onclick="location.href='WIP.html'">Skins</button>
+                    </div>
+                </div>
+
+
+                <div class="Killer" data-killer-id="artful">
+                    <div style="position: relative; width: 100%;">
+                        <img src="/Killers/ArtfulRenderV4.webp">
+                        <p class="name"></p>
+                    </div>
+                    <div class="redirect">
+                        <button class="killer-btn" data-category="infos" onclick="location.href='Artful/DieOfDeathArtfulInfo.html'">Infos</button>
+                        <button class="killer-btn" data-category="skins"data-category="skins" onclick="location.href='WIP.html'">Skins</button>
+                    </div>
+                </div>
+
+                <div class="Killer" data-killer-id="badware">
+                    <div style="position: relative; width: 100%;">
+                        <img src="/Killers/BadwareRenderV3.webp">
+                        <p class="name"></p>
+                    </div>
+                    <div class="redirect">
+                        <button class="killer-btn" data-category="infos" onclick="location.href='Badware/DieOfDeathBadwareInfo.html'">Infos</button>
+                        <button class="killer-btn" data-category="skins" onclick="location.href='WIP.html'">Skins</button>
+                    </div>
+                </div>
+
+                <div class="Killer" data-killer-id="killdroid">
+                    <div style="position: relative; width: 100%;">
+                        <img src="/Killers/KilldroidRenderV5.webp">
+                        <p class="name"></p>
+                    </div>
+                    <div class="redirect">
+                        <button class="killer-btn" data-category="infos" onclick="location.href='Killdroid/DieOfDeathKilldroidInfo.html'">Infos</button>
+                        <button class="killer-btn" data-category="skins" onclick="location.href='WIP.html'">Skins</button>
+                    </div>
+                </div>
+
+                <div class="Killer" data-killer-id="harken">
+                    <div style="position: relative; width: 100%;">
+                        <img src="/Killers/HarkenRenderV3.webp">
+                        <p class="name"></p>
+                    </div>
+                    <div class="redirect">
+                        <button class="killer-btn" data-category="infos" onclick="location.href='Harken/DieOfDeathHarkenInfo.html'">Infos</button>
+                        <button class="killer-btn" data-category="skins" onclick="location.href='WIP.html'">Skins</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script>
+            const music = document.getElementById("main-theme");
+            const button = document.getElementById("harken");
+            const icon = document.getElementById("harken-icon");
+
+            const harkenPause = "/MusicMute/HarkenAudioSettingIconStill1.png";
+            const harkenPlay = "/MusicMute/HarkenAudioSettingIconStill4.png";
+
+            const framesPause = [
+                "/MusicMute/HarkenAudioSettingIconStill4.png",
+                "/MusicMute/HarkenAudioSettingIconStill3.png",
+                "/MusicMute/HarkenAudioSettingIconStill2.png",
+                "/MusicMute/HarkenAudioSettingIconStill1.png"
+            ];
+
+            const framesPlay = [
+                "/MusicMute/HarkenAudioSettingIconStill1.png",
+                "/MusicMute/HarkenAudioSettingIconStill2.png",
+                "/MusicMute/HarkenAudioSettingIconStill3.png",
+                "/MusicMute/HarkenAudioSettingIconStill4.png"
+            ];
+
+            var noise = new Audio('Music/Shopselect.ogg');
+            noise.volume = 0.07;
+            noise.playbackRate = 2;
+
+            const frameTime = 85; //reminder it"s per ms
+
+            let animPlaying = false;
+
+            function playAnim(frames, callback) {
+                animPlaying = true;
+                let i = 0;
+
+                function showNextFrame() {
+                    icon.src = frames[i];
+                    i++;
+                    if (i < frames.length) {
+                        setTimeout(showNextFrame, frameTime);
+                    } else {
+                        animPlaying = false;
+                        if (callback) callback();
+                    }
+                }
+                showNextFrame();
+            }
+
+            function togglemusic() {
+                if (animPlaying) return;
+
+                if (music.paused) {
+                    music.play();
+                    playAnim(framesPlay);
+                    noise.play();
+                } else {
+                    music.pause();
+                    playAnim(framesPause);
+                    noise.play();
+                }
+            }
+
+            button.addEventListener("click", togglemusic);
+
+
+            const languageSelect = document.getElementById('language-select');
+
+            function loadLanguage(lang) {
+                fetch(`Language/${lang}.json`)
+                    .then(response => response.json())
+                    .then(data => {
+                        updateKillers(data.killers);
+                    })
+                    .catch(error => console.error('Something went wrong cuh', error));
+            }
+
+            loadLanguage(languageSelect.value);
+
+            languageSelect.addEventListener('change', function () {
+                loadLanguage(this.value);
+            });
+
+            function updateKillers(killers) {
+                killers.forEach(killer => {
+                    const element = document.querySelector(`[data-killer-id="${killer.id}"]`);
+                    if (element) {
+                        const name = element.querySelector('.name');
+
+                        if (name) name.textContent = killer.name;
+                    }
+                });
+            }
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Die of French</title>
+    <link rel="stylesheet" href="KilldroidInfo.css"/>
+
+</head>
+
+<body>
+    <audio id="main-theme" src="/Music/DieOfDeathShopTheme.ogg" autoplay loop></audio>
+
+    <div class="music-mute">
+        <button id="harken">
+            <img src="/MusicMute/HarkenAudioSettingIconStill1.png" id="harken-icon">
+        </button>
+    </div>
+
+    <div class="language-selector" style='position: fixed;'>
+        <select id="language-select">
+            <option value="fr" selected>Français</option>
+            <option value="en">English</option>
+        </select>
+    </div>
+
+    <div class="TextBoxSHOP">
+        <div class="Text">
+            <p>INFORMATION</p>
+        </div>
+    </div>
+
+    <div class="TextBox">
+        <div class="InfoBox" data-killer-id="killdroid">
+            <p class="name"></p>
+            <div class="desc">
+                <p class="description"></p>
+                <p class="descriptiontext"></p>
+            </div>
+            <div class="stat">
+                <p class="stats"></p>
+                <p class="stamina"></p>
+                <p class="walkspeed"></p>
+                <p class="sprintspeed"></p>
+                <p class="health"></p>
+                <p class="playstyle"></p>
+            </div>
+            <div class="passives">
+                <p class="passive"></p>
+                <p class="passivesmall"></p>
+            </div>
+
+            <div class="ability">
+                <p class="abilities"></p>
+
+                <div class="Abilities">
+                    <img src="/Killers/Killdroid/Abilities/NewEject.webp">
+                    <div class="abilities-text">
+                        <p class="eject"></p>
+                        <p class="ejectquote"></p>
+                        <p class="ejectdesc"></p>
+                    </div>
+                </div>
+
+                <div class="Abilities">
+                    <img src="/Killers/Killdroid/Abilities/NewFlight.webp">
+                    <div class="abilities-text">
+                        <p class="flight"></p>
+                        <p class="flightquote"></p>
+                        <p class="flightdesc"></p>
+                    </div>
+                </div>
+
+                <div class="Abilities">
+                    <img src="/Killers/Killdroid/Abilities/NewDeploy.webp">
+                    <div class="abilities-text">
+                        <p class="killbot"></p>
+                        <p class="killbotquote"></p>
+                        <p class="killbotdesc"></p>
+                    </div>
+                </div>
+
+                <div class="Abilities">
+                        <img src="/Killers/Killdroid/Abilities/PropelIconNEW.webp">
+                    <div class="abilities-text">
+                        <p class="propel"></p>
+                        <p class="propelquote"></p>
+                        <p class="propeldesc"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <button class="killer-btn" onclick="location.href='/Subpages/DieOfDeathKillerShop.html'"> > Leave</button>
+
+
+    <script>
+        const music = document.getElementById("main-theme");
+        const button = document.getElementById("harken");
+        const icon = document.getElementById("harken-icon");
+
+        const harkenPause = "/MusicMute/HarkenAudioSettingIconStill1.png";
+        const harkenPlay = "/MusicMute/HarkenAudioSettingIconStill4.png";
+
+        const framesPause = [
+            "/MusicMute/HarkenAudioSettingIconStill4.png",
+            "/MusicMute/HarkenAudioSettingIconStill3.png",
+            "/MusicMute/HarkenAudioSettingIconStill2.png",
+            "/MusicMute/HarkenAudioSettingIconStill1.png"
+        ];
+
+        const framesPlay = [
+            "/MusicMute/HarkenAudioSettingIconStill1.png",
+            "/MusicMute/HarkenAudioSettingIconStill2.png",
+            "/MusicMute/HarkenAudioSettingIconStill3.png",
+            "/MusicMute/HarkenAudioSettingIconStill4.png"
+        ];
+
+        var noise = new Audio('/Music/Shopselect.ogg');
+        noise.volume = 0.05;
+        noise.playbackRate = 2;
+
+        const frameTime = 85;
+
+        let animPlaying = false;
+
+        function playAnim(frames, callback) {
+            animPlaying = true;
+            let i = 0;
+
+            function showNextFrame() {
+                icon.src = frames[i];
+                i++;
+                if (i < frames.length) {
+                    setTimeout(showNextFrame, frameTime);
+                } else {
+                    animPlaying = false;
+                    if (callback) callback();
+                }
+            }
+            showNextFrame();
+        }
+
+        function togglemusic() {
+            if (animPlaying) return;
+
+            if (music.paused) {
+                music.play();
+                playAnim(framesPlay);
+                noise.play();
+            } else {
+                music.pause();
+                playAnim(framesPause);
+                noise.play();
+            }
+        }
+
+        button.addEventListener("click", togglemusic);
+
+        const languageSelect = document.getElementById('language-select');
+
+        function loadLanguage(lang) {
+            fetch(`../Language/${lang}.json`)
+                .then(response => response.json())
+                .then(data => {
+                    updateKillers(data.killers);
+                })
+                .catch(error => console.error('Something went wrong cuh', error));
+        }
+
+        loadLanguage(languageSelect.value);
+
+        languageSelect.addEventListener('change', function () {
+            loadLanguage(this.value);
+        });
+
+        function parseFullText(text) {
+            if (!text) return '';
+            return text
+                .replace(/\[c:(\w+)\](.*?)\[\/c\]/g, (match, style, content) => {
+                    return `<span class="${style}">${content}</span>`;
+                })
+                .replace(/\[p:(\w+)\](.*?)\[\/p\]/g, (match, style, content) => {
+                    return `<p class="${style}">${content}</p>`;
+                })
+                .replace(/\[br\]/g, '<br><br>')
+                .replace(/\[br1\]/g, '<br>');
+        }
+
+        function updateKillers(killers) {
+            killers.forEach(killer => {
+                const element = document.querySelector(`[data-killer-id="${killer.id}"]`);
+                if (element) {
+                    const name = element.querySelector('.name');
+                    const description = element.querySelector('.description');
+                    const descriptiontext = element.querySelector('.descriptiontext');
+                    const stats = element.querySelector('.stats');
+                    const stamina = element.querySelector('.stamina');
+                    const walkspeed = element.querySelector('.walkspeed');
+                    const sprintspeed = element.querySelector('.sprintspeed');
+                    const health = element.querySelector('.health');
+                    const playstyle = element.querySelector('.playstyle');
+                    const passive = element.querySelector('.passive');
+                    const passivesmall = element.querySelector('.passivesmall');
+                    const abilities = element.querySelector('.abilities');
+                    const eject = element.querySelector('.eject');
+                    const ejectquote = element.querySelector('.ejectquote');
+                    const ejectdesc = element.querySelector('.ejectdesc');
+                    const flight = element.querySelector('.flight');
+                    const flightquote = element.querySelector('.flightquote');
+                    const flightdesc = element.querySelector('.flightdesc');
+                    const killbot = element.querySelector('.killbot');
+                    const killbotquote = element.querySelector('.killbotquote');
+                    const killbotdesc = element.querySelector('.killbotdesc');
+                    const propel = element.querySelector('.propel');
+                    const propelquote = element.querySelector('.propelquote');
+                    const propeldesc = element.querySelector('.propeldesc');
+
+                    if (name) name.innerHTML = parseFullText(killer.name || '');
+                    if (description) description.innerHTML = parseFullText(killer.description || '');
+                    if (descriptiontext) descriptiontext.innerHTML = parseFullText(killer.descriptiontext || '');
+                    if (stats) stats.innerHTML = parseFullText(killer.stats || '');
+                    if (stamina) stamina.innerHTML = parseFullText(killer.stamina || '');
+                    if (walkspeed) walkspeed.innerHTML = parseFullText(killer.walkspeed || '');
+                    if (sprintspeed) sprintspeed.innerHTML = parseFullText(killer.sprintspeed || '');
+                    if (health) health.innerHTML = parseFullText(killer.health || '');
+                    if (playstyle) playstyle.innerHTML = parseFullText(killer.playstyle || '');
+                    if (passive) passive.innerHTML = parseFullText(killer.passive || '');
+                    if (passivesmall) passivesmall.innerHTML = parseFullText(killer.passivesmall || '');
+                    if (abilities) abilities.innerHTML = parseFullText(killer.abilities || '');
+                    if (eject) eject.innerHTML = parseFullText(killer.eject || '');
+                    if (ejectquote) ejectquote.innerHTML = parseFullText(killer.ejectquote || '');
+                    if (ejectdesc) ejectdesc.innerHTML = parseFullText(killer.ejectdesc || '');
+                    if (flight) flight.innerHTML = parseFullText(killer.flight || '');
+                    if (flightquote) flightquote.innerHTML = parseFullText(killer.flightquote || '');
+                    if (flightdesc) flightdesc.innerHTML = parseFullText(killer.flightdesc || '');
+                    if (killbot) killbot.innerHTML = parseFullText(killer.killbot || '');
+                    if (killbotquote) killbotquote.innerHTML = parseFullText(killer.killbotquote || '');
+                    if (killbotdesc) killbotdesc.innerHTML = parseFullText(killer.killbotdesc || '');
+                    if (propel) propel.innerHTML = parseFullText(killer.propel || '');
+                    if (propelquote) propelquote.innerHTML = parseFullText(killer.propelquote || '');
+                    if (propeldesc) propeldesc.innerHTML = parseFullText(killer.propeldesc || '');
+
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

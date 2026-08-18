@@ -52,11 +52,10 @@ button {
 }
 
 .achievement-container {
-    /*background: rgba(0, 0, 0, 0.8);*/
     padding: 30px;
     width: 80%;
     max-width: 54em;
-    min-height: 400px;
+    min-height: 450px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -74,12 +73,7 @@ button {
     border-radius: 5px;
     margin-bottom: 5px;
     gap: 20px;
-
-    text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
+    height: 200px;
 }
 
 .Achievement div {

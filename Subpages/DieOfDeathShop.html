@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Die of French</title>
+    <link rel="stylesheet" href="../Css/DoDShop.css" />
+
+</head>
+
+<body>
+    <audio id="main-theme" src="../Music/ShopLofiMix.ogg" autoplay loop></audio>
+
+    <div class="music-mute">
+        <button id="harken">
+            <img src="../MusicMute/HarkenAudioSettingIconStill1.png" id="harken-icon">
+        </button>
+    </div>
+
+  <div class="ButtonSetter">
+    <div class="Redirect">
+      <div class="Button">
+        <button class="LibraryDOD"
+          onclick="location.href='DieOfDeathKillerShop.html'">
+          <img src="../Buttons/Killers.png">
+        </button>
+      </div>
+    </div>
+  </div>
+
+    <script>
+        const music = document.getElementById("main-theme");
+        const button = document.getElementById("harken");
+        const icon = document.getElementById("harken-icon");
+
+        const harkenPause = "../MusicMute/HarkenAudioSettingIconStill1.png";
+        const harkenPlay = "../MusicMute/HarkenAudioSettingIconStill4.png";
+
+        const framesPause = [
+            "../MusicMute/HarkenAudioSettingIconStill4.png",
+            "../MusicMute/HarkenAudioSettingIconStill3.png",
+            "../MusicMute/HarkenAudioSettingIconStill2.png",
+            "../MusicMute/HarkenAudioSettingIconStill1.png"
+        ];
+
+        const framesPlay = [
+            "../MusicMute/HarkenAudioSettingIconStill1.png",
+            "../MusicMute/HarkenAudioSettingIconStill2.png",
+            "../MusicMute/HarkenAudioSettingIconStill3.png",
+            "../MusicMute/HarkenAudioSettingIconStill4.png"
+        ];
+
+        const frameTime = 85; //reminder it"s per ms
+
+        let animPlaying = false;
+
+        function playAnim(frames, callback) {
+            animPlaying = true;
+            let i = 0;
+
+            function showNextFrame() {
+                icon.src = frames[i];
+                i++;
+                if (i < frames.length) {
+                    setTimeout(showNextFrame, frameTime);
+                } else {
+                    animPlaying = false;
+                    if (callback) callback();
+                }
+            }
+
+            showNextFrame();
+        }
+
+        function togglemusic() {
+            if (animPlaying) return;
+
+            if (music.paused) {
+                music.play();
+                playAnim(framesPlay);
+            } else {
+                music.pause();
+                playAnim(framesPause);
+            }
+        }
+
+        button.addEventListener("click", togglemusic);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Die of French</title>
+    <link rel="stylesheet" href="HarkenInfo.css" />
+
+</head>
+
+<body>
+    <audio id="main-theme" src="/Music/DieOfDeathShopTheme.ogg" autoplay loop></audio>
+
+    <div class="music-mute">
+        <button id="harken">
+            <img src="/MusicMute/HarkenAudioSettingIconStill1.png" id="harken-icon">
+        </button>
+    </div>
+
+    <div class="language-selector" style='position: fixed;'>
+        <select id="language-select">
+            <option value="fr" selected>Français</option>
+            <option value="en">English</option>
+        </select>
+    </div>
+
+    <div class="TextBoxSHOP">
+        <div class="Text">
+            <p>INFORMATION</p>
+        </div>
+    </div>
+
+    <div class="TextBox">
+        <div class="InfoBox" data-killer-id="harken">
+            <p class="name"></p>
+            <div class="desc">
+                <p class="description"></p>
+                <p class="descriptiontext"></p>
+            </div>
+            <div class="stat">
+                <p class="stats"></p>
+                <p class="stamina"></p>
+                <p class="walkspeed"></p>
+                <p class="sprintspeed"></p>
+                <p class="health"></p>
+                <p class="playstyle"></p>
+            </div>
+            <div class="passives">
+                <p class="passive"></p>
+                <p class="passivesmall"></p>
+            </div>
+
+            <div class="ability">
+                <p class="abilities"></p>
+
+                <div class="Abilities">
+                    <div class="abilities-images">
+                        <img src="/Killers/Harken/Abilities/HarkenM1.webp">
+                        <img src="/Killers/Harken/Abilities/Enrage_Swing.webp">
+                    </div>
+                    <div class="abilities-text">
+                        <p class="swing"></p>
+                        <p class="swingquote"></p>
+                        <p class="swingdesc"></p>
+                    </div>
+                </div>
+
+                <div class="Abilities">
+                    <img src="/Killers/Harken/Abilities/RepressIcon.webp">
+                    <div class="abilities-text">
+                        <p class="repress"></p>
+                        <p class="repressquote"></p>
+                        <p class="repressdesc"></p>
+                    </div>
+                </div>
+
+                <div class="Abilities">
+                    <img src="/Killers/Harken/Abilities/NewAgitationIcon.webp">
+                    <div class="abilities-text">
+                        <p class="agitation"></p>
+                        <p class="agitationquote"></p>
+                        <p class="agitationdesc"></p>
+                    </div>
+                </div>
+
+                <div class="Abilities">
+                        <img src="/Killers/Harken/Abilities/ENRAGED_Icon.webp">
+                    <div class="abilities-text">
+                        <p class="enrage"></p>
+                        <p class="enragequote"></p>
+                        <p class="enragedesc"></p>
+                    </div>
+                </div>
+
+                <div class="Abilities">
+                    <img src="/Killers/Harken/Abilities/Pummel_Icon.webp">
+                    <div class="abilities-text">
+                        <p class="pummel"></p>
+                        <p class="pummelquote"></p>
+                        <p class="pummeldesc"></p>
+                    </div>
+                </div>
+
+                <div class="Abilities">
+                    <img src="/Killers/Harken/Abilities/Light_Piercer_Icon.webp">
+                    <div class="abilities-text">
+                        <p class="lightpiercer"></p>
+                        <p class="lightpiercerquote"></p>
+                        <p class="lightpiercerdesc"></p>
+                    </div>
+                </div>
+
+                <div class="Abilities">
+                    <img src="/Killers/Harken/Abilities/Immolateicon.webp">
+                    <div class="abilities-text">
+                        <p class="immolate"></p>
+                        <p class="immolatequote"></p>
+                        <p class="immolatedesc"></p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <button class="killer-btn" onclick="location.href='/Subpages/DieOfDeathKillerShop.html'"> > Leave</button>
+
+
+    <script>
+        const music = document.getElementById("main-theme");
+        const button = document.getElementById("harken");
+        const icon = document.getElementById("harken-icon");
+
+        const harkenPause = "/MusicMute/HarkenAudioSettingIconStill1.png";
+        const harkenPlay = "/MusicMute/HarkenAudioSettingIconStill4.png";
+
+        const framesPause = [
+            "/MusicMute/HarkenAudioSettingIconStill4.png",
+            "/MusicMute/HarkenAudioSettingIconStill3.png",
+            "/MusicMute/HarkenAudioSettingIconStill2.png",
+            "/MusicMute/HarkenAudioSettingIconStill1.png"
+        ];
+
+        const framesPlay = [
+            "/MusicMute/HarkenAudioSettingIconStill1.png",
+            "/MusicMute/HarkenAudioSettingIconStill2.png",
+            "/MusicMute/HarkenAudioSettingIconStill3.png",
+            "/MusicMute/HarkenAudioSettingIconStill4.png"
+        ];
+
+        var noise = new Audio('/Music/Shopselect.ogg');
+        noise.volume = 0.05;
+        noise.playbackRate = 2;
+
+        const frameTime = 85;
+
+        let animPlaying = false;
+
+        function playAnim(frames, callback) {
+            animPlaying = true;
+            let i = 0;
+
+            function showNextFrame() {
+                icon.src = frames[i];
+                i++;
+                if (i < frames.length) {
+                    setTimeout(showNextFrame, frameTime);
+                } else {
+                    animPlaying = false;
+                    if (callback) callback();
+                }
+            }
+            showNextFrame();
+        }
+
+        function togglemusic() {
+            if (animPlaying) return;
+
+            if (music.paused) {
+                music.play();
+                playAnim(framesPlay);
+                noise.play();
+            } else {
+                music.pause();
+                playAnim(framesPause);
+                noise.play();
+            }
+        }
+
+        button.addEventListener("click", togglemusic);
+
+        const languageSelect = document.getElementById('language-select');
+
+        function loadLanguage(lang) {
+            fetch(`../Language/${lang}.json`)
+                .then(response => response.json())
+                .then(data => {
+                    updateKillers(data.killers);
+                })
+                .catch(error => console.error('Something went wrong cuh', error));
+        }
+
+        loadLanguage(languageSelect.value);
+
+        languageSelect.addEventListener('change', function () {
+            loadLanguage(this.value);
+        });
+
+        function parseFullText(text) {
+            if (!text) return '';
+            return text
+                .replace(/\[c:(\w+)\](.*?)\[\/c\]/g, (match, style, content) => {
+                    return `<span class="${style}">${content}</span>`;
+                })
+                .replace(/\[p:(\w+)\](.*?)\[\/p\]/g, (match, style, content) => {
+                    return `<p class="${style}">${content}</p>`;
+                })
+                .replace(/\[br\]/g, '<br><br>')
+                .replace(/\[br1\]/g, '<br>');
+        }
+
+        function updateKillers(killers) {
+            killers.forEach(killer => {
+                const element = document.querySelector(`[data-killer-id="${killer.id}"]`);
+                if (element) {
+                    const name = element.querySelector('.name');
+                    const description = element.querySelector('.description');
+                    const descriptiontext = element.querySelector('.descriptiontext');
+                    const stats = element.querySelector('.stats');
+                    const stamina = element.querySelector('.stamina');
+                    const walkspeed = element.querySelector('.walkspeed');
+                    const sprintspeed = element.querySelector('.sprintspeed');
+                    const health = element.querySelector('.health');
+                    const playstyle = element.querySelector('.playstyle');
+                    const passive = element.querySelector('.passive');
+                    const passivesmall = element.querySelector('.passivesmall');
+                    const abilities = element.querySelector('.abilities');
+                    const swing = element.querySelector('.swing');
+                    const swingquote = element.querySelector('.swingquote');
+                    const swingdesc = element.querySelector('.swingdesc');
+                    const repress = element.querySelector('.repress');
+                    const repressquote = element.querySelector('.repressquote');
+                    const repressdesc = element.querySelector('.repressdesc');
+                    const agitation = element.querySelector('.agitation');
+                    const agitationquote = element.querySelector('.agitationquote');
+                    const agitationdesc = element.querySelector('.agitationdesc');
+                    const enrage = element.querySelector('.enrage');
+                    const enragequote = element.querySelector('.enragequote');
+                    const enragedesc = element.querySelector('.enragedesc');
+                    const pummel = element.querySelector('.pummel');
+                    const pummelquote = element.querySelector('.pummelquote');
+                    const pummeldesc = element.querySelector('.pummeldesc');
+                    const lightpiercer = element.querySelector('.lightpiercer');
+                    const lightpiercerquote = element.querySelector('.lightpiercerquote');
+                    const lightpiercerdesc = element.querySelector('.lightpiercerdesc');
+                    const immolate = element.querySelector('.immolate');
+                    const immolatequote = element.querySelector('.immolatequote');
+                    const immolatedesc = element.querySelector('.immolatedesc');
+
+                    if (name) name.innerHTML = parseFullText(killer.name || '');
+                    if (description) description.innerHTML = parseFullText(killer.description || '');
+                    if (descriptiontext) descriptiontext.innerHTML = parseFullText(killer.descriptiontext || '');
+                    if (stats) stats.innerHTML = parseFullText(killer.stats || '');
+                    if (stamina) stamina.innerHTML = parseFullText(killer.stamina || '');
+                    if (walkspeed) walkspeed.innerHTML = parseFullText(killer.walkspeed || '');
+                    if (sprintspeed) sprintspeed.innerHTML = parseFullText(killer.sprintspeed || '');
+                    if (health) health.innerHTML = parseFullText(killer.health || '');
+                    if (playstyle) playstyle.innerHTML = parseFullText(killer.playstyle || '');
+                    if (passive) passive.innerHTML = parseFullText(killer.passive || '');
+                    if (passivesmall) passivesmall.innerHTML = parseFullText(killer.passivesmall || '');
+                    if (abilities) abilities.innerHTML = parseFullText(killer.abilities || '');
+                    if (swing) swing.innerHTML = parseFullText(killer.swing || '');
+                    if (swingquote) swingquote.innerHTML = parseFullText(killer.swingquote || '');
+                    if (swingdesc) swingdesc.innerHTML = parseFullText(killer.swingdesc || '');
+                    if (repress) repress.innerHTML = parseFullText(killer.repress || '');
+                    if (repressquote) repressquote.innerHTML = parseFullText(killer.repressquote || '');
+                    if (repressdesc) repressdesc.innerHTML = parseFullText(killer.repressdesc || '');
+                    if (agitation) agitation.innerHTML = parseFullText(killer.agitation || '');
+                    if (agitationquote) agitationquote.innerHTML = parseFullText(killer.agitationquote || '');
+                    if (agitationdesc) agitationdesc.innerHTML = parseFullText(killer.agitationdesc || '');
+                    if (enrage) enrage.innerHTML = parseFullText(killer.enrage || '');
+                    if (enragequote) enragequote.innerHTML = parseFullText(killer.enragequote || '');
+                    if (enragedesc) enragedesc.innerHTML = parseFullText(killer.enragedesc || '');
+                    if (pummel) pummel.innerHTML = parseFullText(killer.pummel || '');
+                    if (pummelquote) pummelquote.innerHTML = parseFullText(killer.pummelquote || '');
+                    if (pummeldesc) pummeldesc.innerHTML = parseFullText(killer.pummeldesc || '');
+                    if (lightpiercer) lightpiercer.innerHTML = parseFullText(killer.lightpiercer || '');
+                    if (lightpiercerquote) lightpiercerquote.innerHTML = parseFullText(killer.lightpiercerquote || '');
+                    if (lightpiercerdesc) lightpiercerdesc.innerHTML = parseFullText(killer.lightpiercerdesc || '');
+                    if (immolate) immolate.innerHTML = parseFullText(killer.immolate || '');
+                    if (immolatequote) immolatequote.innerHTML = parseFullText(killer.immolatequote || '');
+                    if (immolatedesc) immolatedesc.innerHTML = parseFullText(killer.immolatedesc || '');
+
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
