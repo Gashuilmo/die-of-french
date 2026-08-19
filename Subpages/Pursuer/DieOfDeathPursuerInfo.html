@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Die of French</title>
-    <link rel="stylesheet" href="Css/PursuerInfo.css" />
+    <link rel="stylesheet" href="PursuerInfo.css" />
 
 </head>
 
@@ -121,6 +121,9 @@
         const music = document.getElementById("main-theme");
         const button = document.getElementById("harken");
         const icon = document.getElementById("harken-icon");
+
+        const audio = document.getElementById("main-theme");
+        audio.volume = 0.15
 
         const harkenPause = "../../MusicMute/HarkenAudioSettingIconStill1.png";
         const harkenPlay = "../../MusicMute/HarkenAudioSettingIconStill4.png";
