@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Die of French</title>
-    <link rel="stylesheet" href="KilldroidInfo.css"/>
+    <link rel="stylesheet" href="KilldroidInfo.css" />
 
 </head>
 
 <body>
-    <audio id="main-theme" src="/Music/DieOfDeathShopTheme.ogg" autoplay loop></audio>
+    <audio id="main-theme" src="../../Music/DieOfDeathShopTheme.ogg" autoplay loop></audio>
 
     <div class="music-mute">
         <button id="harken">
-            <img src="/MusicMute/HarkenAudioSettingIconStill1.png" id="harken-icon">
+            <img src="../../MusicMute/HarkenAudioSettingIconStill1.png" id="harken-icon">
         </button>
     </div>
 
@@ -54,7 +54,7 @@
                 <p class="abilities"></p>
 
                 <div class="Abilities">
-                    <img src="/Killers/Killdroid/Abilities/NewEject.webp">
+                    <img src="../../Killers/Killdroid/Abilities/NewEject.webp">
                     <div class="abilities-text">
                         <p class="eject"></p>
                         <p class="ejectquote"></p>
@@ -63,7 +63,7 @@
                 </div>
 
                 <div class="Abilities">
-                    <img src="/Killers/Killdroid/Abilities/NewFlight.webp">
+                    <img src="../../Killers/Killdroid/Abilities/NewFlight.webp">
                     <div class="abilities-text">
                         <p class="flight"></p>
                         <p class="flightquote"></p>
@@ -72,7 +72,7 @@
                 </div>
 
                 <div class="Abilities">
-                    <img src="/Killers/Killdroid/Abilities/NewDeploy.webp">
+                    <img src="../../Killers/Killdroid/Abilities/NewDeploy.webp">
                     <div class="abilities-text">
                         <p class="killbot"></p>
                         <p class="killbotquote"></p>
@@ -81,7 +81,7 @@
                 </div>
 
                 <div class="Abilities">
-                        <img src="/Killers/Killdroid/Abilities/PropelIconNEW.webp">
+                        <img src="../../Killers/Killdroid/Abilities/PropelIconNEW.webp">
                     <div class="abilities-text">
                         <p class="propel"></p>
                         <p class="propelquote"></p>
@@ -101,21 +101,21 @@
         const button = document.getElementById("harken");
         const icon = document.getElementById("harken-icon");
 
-        const harkenPause = "/MusicMute/HarkenAudioSettingIconStill1.png";
-        const harkenPlay = "/MusicMute/HarkenAudioSettingIconStill4.png";
+        const harkenPause = "../../MusicMute/HarkenAudioSettingIconStill1.png";
+        const harkenPlay = "../../MusicMute/HarkenAudioSettingIconStill4.png";
 
         const framesPause = [
-            "/MusicMute/HarkenAudioSettingIconStill4.png",
-            "/MusicMute/HarkenAudioSettingIconStill3.png",
-            "/MusicMute/HarkenAudioSettingIconStill2.png",
-            "/MusicMute/HarkenAudioSettingIconStill1.png"
+            "../../MusicMute/HarkenAudioSettingIconStill4.png",
+            "../../MusicMute/HarkenAudioSettingIconStill3.png",
+            "../../MusicMute/HarkenAudioSettingIconStill2.png",
+            "../../MusicMute/HarkenAudioSettingIconStill1.png"
         ];
 
         const framesPlay = [
-            "/MusicMute/HarkenAudioSettingIconStill1.png",
-            "/MusicMute/HarkenAudioSettingIconStill2.png",
-            "/MusicMute/HarkenAudioSettingIconStill3.png",
-            "/MusicMute/HarkenAudioSettingIconStill4.png"
+            "../../MusicMute/HarkenAudioSettingIconStill1.png",
+            "../../MusicMute/HarkenAudioSettingIconStill2.png",
+            "../../MusicMute/HarkenAudioSettingIconStill3.png",
+            "../../MusicMute/HarkenAudioSettingIconStill4.png"
         ];
 
         var noise = new Audio('/Music/Shopselect.ogg');
