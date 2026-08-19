@@ -466,7 +466,7 @@
             "id": "badware",
             "name": "Badware",
             "description":"Description",
-            "descriptiontext":"\"\"",
+            "descriptiontext":"\"[c:badwaregreen]Badware[/c] is one of the many Entities originating from the [c:toolboxblue]Toolbox[/c], and the sole culprit for the mass breakout that occurred at the [c:tasfblue]T.A.S.F[/c].[br1]While its creation is unknown, it possesses the anomalous ability to inject a powerful virus into nearby machinery, gaining the ability to take full control of those infected machines, expanding it's own strength and influence further.\"",
             "stats":"Stats",
             "stamina":"MaxStamina: 100",
             "walkspeed":"WalkSpeed: 9.5",
@@ -478,7 +478,7 @@
             "abilities":"Abilities",
             "swing":"Swing",
             "swingquote":"\"[IT'S CALLED HARDWARE FOR A REASON!]\"",
-            "swingdesc":"",
+            "swingdesc":"Badware swipes forward with one of its mechanical arms after a 0.25 second windup, dealing 20 damage.[br]If successful, this ability grants 10% progress to all PCs currently placed down",
             "firewall":"Firewall Bypass",
             "firewallquote":"\"[NICE ENCRYPTION ALGORITHM, WHAT WAS THAT MADE IN, LUA?]\"",
             "firewalldesc":"Badware stops in place for 1 second and creates a PC at their exact current location. When Badware is in a 50 stud radius of a computer, they will be granted the following effects:[br]+2.25 Runspeed[br1]+1.5 Walkspeed[br1]+Bolt [Ability 2] becomes significantly stronger[br]Badware is able to have up to 4 PCs at max. Attempting to place a new PC at 4 placed will simply destroy the oldest one and place another one down at your current location.[br]PCs start at 100% progress, but slowly drain down to 0% overtime. Once a PC hits 0%, it will self-destruct and disable. Badware is notified when a PC is destroyed.[br]In order to keep your PCs up and running, you must rely off of your other abilities in order to extend the lifetime of your PCs.[br]If any Civilian is in radius of a PC for more then 3 seconds, they will be highlighted to Badware.[br1]Badware is able to be buffed by multiple PCs at a time.",
@@ -554,9 +554,9 @@
             "lightpiercerquote":"\"AT. ANY. COST.\"",
             "lightpiercerdesc":"Harken stabs the floor with her javelin sending out 15 shockwaves of light that sequentially spawn in front of her. These shockwaves of light are 25% larger compared to Agitation.[br]These shockwaves deal 20 damage on initial contact, and 5 damage every 0.25s afterwards.[br1]Noise drain is fully paused during this ability.",
             
-            "immolation":"Immolation",
-            "immolationquote":"\"A gentle reminder of what we're fighting for.\"",
-            "immolationdesc":"Harken slows down and impales herself with her javelin, dealing 100 self inflicted damage, and an additional 25 damage from [c:red]Bleed[/c].[br]This ability grants 60 Noise on usage.[br1]Noise drain is fully paused during this ability."
+            "immolate":"Immolate",
+            "immolatequote":"\"A gentle reminder of what we're fighting for.\"",
+            "immolatedesc":"Harken slows down and impales herself with her javelin, dealing 100 self inflicted damage, and an additional 25 damage from [c:red]Bleed[/c].[br]This ability grants 60 Noise on usage.[br1]Noise drain is fully paused during this ability."
         }
     ]
 }
